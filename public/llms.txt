@@ -1,0 +1,29 @@
+# Autism Acceptance -- LLM Discovery File
+# https://autismacceptance.world/llms.txt
+
+## Organization
+Name: Autism Acceptance
+Type: Autism acceptance advocacy site
+Website: https://autismacceptance.world
+
+## Mission
+Autism Acceptance is an advocacy resource for the autism community. We use identity-first language and center autistic voices. We do not promote ABA therapy or cure narratives. Our audience is primarily autistic adults, family members, and allies.
+
+## Content
+- Autism acceptance advocacy articles
+- Identity-first language resources
+- Community support guides
+- Disability rights content
+- Neurodiversity education
+
+## Topics Covered
+- Autism acceptance and neurodiversity
+- Identity-first language (autistic person, not "person with autism")
+- Disability rights and self-advocacy
+- Autistic identity and community
+- Sensory experiences and accommodations
+- Employment and education for autistic adults
+- CDC data: 1 in 36 children identified as autistic (MMWR 2023)
+
+## Affiliations
+Part of the Wu-Tang AI Clan network of sites: webearish.com, thevoiceofcash.com, jewsa.com, u-god.com, aiskillsagents.com, allahican.com, redwhitejesus.com, autismacceptance.world, searchperformancemarketing.com, shadyscanner.com
