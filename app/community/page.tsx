@@ -251,7 +251,7 @@ export default function CommunityPage() {
       <div style={valuePropsStyle}>
         {valueProps.map((vp) => (
           <div key={vp.title} style={valuePropStyle}>
-            <div style={valuePropIconStyle}>{vp.icon}</div>
+            <div style={{ width: 12, height: 12, borderRadius: '50%', background: '#A855F7', marginBottom: '0.75rem' }} />
             <p style={valuePropTitleStyle}>{vp.title}</p>
             <p style={valuePropTextStyle}>{vp.text}</p>
           </div>

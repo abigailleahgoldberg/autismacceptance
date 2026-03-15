@@ -405,7 +405,7 @@ export default function HomePage() {
           <div style={topicGridStyle}>
             {topics.map((t) => (
               <a key={t.href} href={t.href} style={topicCardStyle}>
-                <div style={topicIconStyle}>{t.icon}</div>
+                <div style={{ width: 12, height: 12, borderRadius: '50%', background: '#A855F7', marginBottom: '0.75rem' }} />
                 <p style={topicTitleStyle}>{t.title}</p>
                 <p style={topicDescStyle}>{t.desc}</p>
               </a>
