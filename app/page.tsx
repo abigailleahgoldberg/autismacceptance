@@ -481,60 +481,7 @@ export default function HomePage() {
       </section>
 
       {/* Bear Photo Section */}
-      <section className="bear-section" aria-labelledby="bear-section-heading">
-        <div style={containerStyle}>
-          <div style={{ textAlign: "center", marginBottom: "2rem" }}>
-            <h2 style={sectionHeadingStyle} id="bear-section-heading">
-              A Family That Sticks Together
-            </h2>
-          </div>
-          <div className="bear-grid">
-            {/* Hero bear photo — spans 2 rows on desktop */}
-            <div className="bear-hero-img">
-              <Image
-                src="/bears/bears-together.jpg"
-                alt="Bears together as a family"
-                fill
-                sizes="(max-width: 768px) 100vw, 66vw"
-                style={{ objectFit: "cover" }}
-                priority
-              />
-            </div>
-            {/* Secondary photos */}
-            <div className="bear-secondary-img">
-              <Image
-                src="/bears/bear-tree.jpg"
-                alt="Bear in a tree"
-                fill
-                sizes="(max-width: 768px) 100vw, 33vw"
-                style={{ objectFit: "cover" }}
-                loading="lazy"
-              />
-            </div>
-            <div className="bear-secondary-img">
-              <Image
-                src="/bears/bear-forest.jpg"
-                alt="Bear in a forest"
-                fill
-                sizes="(max-width: 768px) 100vw, 33vw"
-                style={{ objectFit: "cover" }}
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <p
-            style={{
-              textAlign: "center",
-              fontSize: "0.9375rem",
-              color: "rgba(250, 250, 248, 0.45)",
-              fontStyle: "italic",
-              marginBottom: 0,
-            }}
-          >
-            Built by parents. For families. For every child.
-          </p>
-        </div>
-      </section>
+      {/* Bear section removed — photo now in hero */}
 
       {/* Featured blog posts */}
       <section
