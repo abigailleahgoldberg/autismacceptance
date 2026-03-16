@@ -178,6 +178,9 @@ export default function RootLayout({
                 <a href="/blog" style={navLinkStyle}>Blog</a>
               </li>
               <li>
+                <a href="/shop" style={navLinkStyle}>Shop</a>
+              </li>
+              <li>
                 <a href="/community" style={ctaButtonStyle}>Get Support</a>
               </li>
             </ul>
@@ -205,6 +208,7 @@ export default function RootLayout({
                 <a href="/blog" style={footerLinkStyle}>Blog</a>
                 <a href="/resources" style={footerLinkStyle}>Resources</a>
                 <a href="/community" style={footerLinkStyle}>Community</a>
+                <a href="/shop" style={footerLinkStyle}>Shop</a>
                 <a href="/advertise" style={footerLinkStyle}>Advertise</a>
               </div>
 

@@ -451,6 +451,105 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Shop for Acceptance callout */}
+      <section
+        style={{
+          padding: "4rem 1.5rem",
+          background: "radial-gradient(ellipse 70% 50% at 50% 50%, rgba(107, 33, 168, 0.15) 0%, transparent 75%)",
+        }}
+        aria-labelledby="shop-callout-heading"
+      >
+        <div style={containerStyle}>
+          <div style={{ textAlign: "center", marginBottom: "2.5rem" }}>
+            <h2 style={sectionHeadingStyle} id="shop-callout-heading">
+              Shop for Acceptance
+            </h2>
+            <p style={sectionSubStyle}>
+              Adult autism acceptance merch from WeBearish. 100% of profits reinvested into this community.
+            </p>
+          </div>
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
+              gap: "1.25rem",
+              marginBottom: "2.5rem",
+            }}
+          >
+            {[
+              { name: "Acceptance Over Awareness", price: "$34.99", color: "#6B21A8" },
+              { name: "Different Not Less", price: "$59.99", color: "#4C1D95" },
+              { name: "Stimming Is Self-Care", price: "$34.99", color: "#5B21B6" },
+              { name: "Actually Autistic", price: "$28.99", color: "#D97706" },
+            ].map((item) => (
+              <a
+                key={item.name}
+                href="/shop"
+                style={{
+                  backgroundColor: "rgba(107, 33, 168, 0.07)",
+                  border: "1px solid rgba(168, 85, 247, 0.2)",
+                  borderRadius: "12px",
+                  overflow: "hidden",
+                  textDecoration: "none",
+                  display: "block",
+                  transition: "border-color 0.2s, background-color 0.2s",
+                }}
+              >
+                <div
+                  style={{
+                    background: `linear-gradient(135deg, ${item.color}22 0%, ${item.color}44 100%)`,
+                    height: "140px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    borderBottom: "1px solid rgba(168, 85, 247, 0.12)",
+                  }}
+                  aria-hidden="true"
+                >
+                  <svg
+                    viewBox="0 0 100 100"
+                    fill={item.color}
+                    xmlns="http://www.w3.org/2000/svg"
+                    style={{ width: "44px", height: "44px", opacity: 0.5 }}
+                  >
+                    <circle cx="28" cy="30" r="14" />
+                    <circle cx="72" cy="30" r="14" />
+                    <circle cx="50" cy="45" r="28" />
+                    <ellipse cx="50" cy="82" rx="24" ry="18" />
+                  </svg>
+                </div>
+                <div style={{ padding: "1rem" }}>
+                  <p style={{ fontSize: "0.9375rem", fontWeight: 700, color: "#FAFAF8", marginBottom: "0.25rem", lineHeight: 1.3 }}>
+                    {item.name}
+                  </p>
+                  <p style={{ fontSize: "1.125rem", fontWeight: 900, color: "#A855F7", marginBottom: 0, letterSpacing: "-0.01em" }}>
+                    {item.price}
+                  </p>
+                </div>
+              </a>
+            ))}
+          </div>
+          <div style={{ textAlign: "center" }}>
+            <a
+              href="/shop"
+              style={{
+                backgroundColor: "#6B21A8",
+                color: "#FAFAF8",
+                padding: "0.875rem 2rem",
+                borderRadius: "8px",
+                fontSize: "1rem",
+                fontWeight: 700,
+                textDecoration: "none",
+                display: "inline-block",
+                border: "2px solid #6B21A8",
+              }}
+            >
+              Visit the Shop
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Community section */}
       <section style={communitySectionStyle} aria-labelledby="community-heading">
         <div style={communityInnerStyle}>
