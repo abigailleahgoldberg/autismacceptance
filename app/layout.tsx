@@ -10,7 +10,9 @@ const navStyle: React.CSSProperties = {
   backgroundColor: "rgba(9, 8, 15, 0.92)",
   backdropFilter: "blur(12px)",
   borderBottom: "1px solid rgba(168, 85, 247, 0.15)",
-  padding: "0 1.5rem",
+  padding: "0 1rem",
+  maxWidth: "100vw",
+  overflow: "hidden",
 };
 
 const navInnerStyle: React.CSSProperties = {
@@ -20,8 +22,10 @@ const navInnerStyle: React.CSSProperties = {
   alignItems: "center",
   justifyContent: "space-between",
   height: "64px",
-  gap: "1rem",
+  gap: "0.5rem",
   position: "relative",
+  overflow: "hidden",
+  width: "100%",
 };
 
 const logoStyle: React.CSSProperties = {
@@ -181,15 +185,15 @@ export default function RootLayout({
       <body>
         <nav style={navStyle} aria-label="Main navigation">
           <div style={navInnerStyle}>
-            <div style={{ display: "flex", flexDirection: "column" as const, gap: "2px" }}>
+            <div style={{ display: "flex", flexDirection: "column" as const, gap: "2px", flexShrink: 0, minWidth: 0, overflow: "hidden" }}>
               <a href="/" style={{ ...logoStyle, display: "flex", alignItems: "center", gap: "10px", textDecoration: "none", zIndex: 10 }} aria-label="Autism Acceptance World home">
-                <img src="/bears/bear-forest.jpg" alt="" style={{ width: 36, height: 36, borderRadius: "50%", objectFit: "cover" as const }} />
-                <span>
+                <img src="/bears/bear-forest.jpg" alt="" style={{ width: 36, height: 36, minWidth: 36, borderRadius: "50%", objectFit: "cover" as const }} />
+                <span style={{ whiteSpace: "nowrap" as const, overflow: "hidden", textOverflow: "ellipsis" }}>
                   <span style={logoTextStyle}>Autism Acceptance</span>
                   <span style={logoWorldStyle}> World</span>
                 </span>
               </a>
-              <a href="https://webearish.com" target="_blank" rel="noopener noreferrer" style={{ fontSize: "10px", color: "rgba(168,85,247,0.6)", textDecoration: "none", letterSpacing: "0.5px", paddingLeft: "46px" }}>
+              <a href="https://webearish.com" target="_blank" rel="noopener noreferrer" className="affiliate-link" style={{ fontSize: "10px", color: "rgba(168,85,247,0.6)", textDecoration: "none", letterSpacing: "0.5px", paddingLeft: "46px" }}>
                 A WeBearish Affiliate
               </a>
             </div>
@@ -324,6 +328,9 @@ export default function RootLayout({
             }
             .nav-hamburger {
               display: flex !important;
+            }
+            .affiliate-link {
+              display: none;
             }
           }
           .footer-grid {

@@ -26,6 +26,9 @@ export default function CommunityPage() {
     maxWidth: "900px",
     margin: "0 auto",
     padding: "4rem 1.5rem 6rem",
+    boxSizing: "border-box",
+    width: "100%",
+    overflowX: "hidden",
   };
 
   const heroStyle: React.CSSProperties = {
@@ -156,6 +159,8 @@ export default function CommunityPage() {
   const principlesStyle: React.CSSProperties = {
     borderTop: "1px solid rgba(168, 85, 247, 0.15)",
     paddingTop: "3rem",
+    width: "100%",
+    overflowX: "hidden",
   };
 
   const principlesHeadStyle: React.CSSProperties = {
@@ -169,15 +174,19 @@ export default function CommunityPage() {
   const principleListStyle: React.CSSProperties = {
     listStyle: "none",
     padding: 0,
+    margin: 0,
     display: "flex",
     flexDirection: "column",
     gap: "1rem",
+    width: "100%",
   };
 
   const principleItemStyle: React.CSSProperties = {
     display: "flex",
     gap: "0.75rem",
     alignItems: "flex-start",
+    width: "100%",
+    minWidth: 0,
   };
 
   const principleCheckStyle: React.CSSProperties = {
@@ -192,6 +201,10 @@ export default function CommunityPage() {
     fontSize: "1rem",
     color: "rgba(250, 250, 248, 0.7)",
     lineHeight: 1.6,
+    flex: 1,
+    minWidth: 0,
+    overflowWrap: "break-word",
+    wordBreak: "break-word",
   };
 
   const valueProps = [
