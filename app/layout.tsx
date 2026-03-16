@@ -325,6 +325,20 @@ export default function RootLayout({
         <meta name="twitter:title" content="Autism Acceptance World — The Adult Autism Resource" />
         <meta name="twitter:description" content="Built for autistic adults. No cure narratives. Real acceptance." />
         <meta name="twitter:image" content="https://autismacceptance.world/bears/bears-together.jpg" />
+        <link rel="canonical" href="https://autismacceptance.world" />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Autism Acceptance World",
+          "url": "https://autismacceptance.world",
+          "description": "The adult autism resource. Built for autistic adults. No cure narratives. Real information, real community, real acceptance."
+        }) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Autism Acceptance World",
+          "url": "https://autismacceptance.world"
+        }) }} />
       </head>
       <body className={plexMono.className}>
         <nav style={navStyle} aria-label="Main navigation">
@@ -564,6 +578,12 @@ export default function RootLayout({
                 &copy; {new Date().getFullYear()} Autism Acceptance World. Not a medical site.
                 Nothing here constitutes medical advice. For diagnosis, see a qualified professional.
               </p>
+              <div style={{ display: "flex", gap: "20px", flexWrap: "wrap", alignItems: "center", paddingTop: "12px" }}>
+                <span style={{ fontSize: "0.7rem", fontWeight: 700, color: "rgba(168,85,247,0.6)", letterSpacing: "0.12em", textTransform: "uppercase" as const }}>Resources</span>
+                <a href="https://autisticadvocacy.org" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(250,250,248,0.45)", fontSize: "0.8rem", textDecoration: "none" }}>Autistic Self Advocacy Network (ASAN) →</a>
+                <a href="https://awnnetwork.org" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(250,250,248,0.45)", fontSize: "0.8rem", textDecoration: "none" }}>Autistic Women & Nonbinary Network →</a>
+                <a href="https://www.cdc.gov/autism" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(250,250,248,0.45)", fontSize: "0.8rem", textDecoration: "none" }}>CDC Autism Data →</a>
+              </div>
             </div>
           </div>
         </footer>
