@@ -209,7 +209,7 @@ export default function AutisticBurnoutPage() {
       </p>
 
       <p style={bodyStyle}>
-        The key distinguishing feature is the relationship to demands. Depression typically
+        The key distinguishing feature is the relationship to demands. <a href="/depression-and-autism" style={{ color: "#A855F7" }}>Depression</a> typically
         involves a pervasive low mood and loss of interest that doesn't directly track
         external demands. Autistic burnout is more specifically tied to the experience of
         being overwhelmed by the cumulative demand of masking and navigating a neurotypical
@@ -232,7 +232,7 @@ export default function AutisticBurnoutPage() {
       </p>
 
       <p style={bodyStyle}>
-        Masking — suppressing stimming, forcing eye contact, performing neurotypical social
+        <a href="/masking-and-unmasking" style={{ color: "#A855F7" }}>Masking</a> — suppressing stimming, forcing eye contact, performing neurotypical social
         scripts, managing sensory overwhelm without showing it, processing social information
         in real time through intense concentration — costs enormous cognitive and emotional
         resources. Every interaction where you have to mask depletes something. Over years
@@ -260,7 +260,7 @@ export default function AutisticBurnoutPage() {
         <li><strong style={{ color: "#FAFAF8" }}>Rest without guilt.</strong> Autistic burnout requires real rest — not productive rest, not "self-care" that's actually another performance. Unstructured time to do low-demand activities that restore you.</li>
         <li><strong style={{ color: "#FAFAF8" }}>Access to special interests.</strong> Time with your special interests is genuinely restorative for many autistic people. It's not a reward or a treat — it's physiologically regulated. Protect that time.</li>
         <li><strong style={{ color: "#FAFAF8" }}>Social reduction.</strong> During burnout, social interaction — even with people you love — may be impossible or genuinely harmful. This isn't antisocial. It's triage. Communicate your limits and let the right people understand.</li>
-        <li><strong style={{ color: "#FAFAF8" }}>Accommodations at work or school.</strong> If you're in burnout, this is the moment to use the accommodations you're entitled to under the ADA (US) or similar protections. Remote work, flexible scheduling, reduced social demands.</li>
+        <li><strong style={{ color: "#FAFAF8" }}>Accommodations at work or school.</strong> If you're in burnout, this is the moment to use the accommodations you're entitled to under the ADA (US) or similar protections. Remote work, flexible scheduling, reduced social demands. See our <a href="/workplace" style={{ color: "#A855F7" }}>workplace guide</a> for how to request these formally.</li>
       </ul>
 
       <h2 style={h2Style}>What Doesn't Work</h2>
@@ -294,11 +294,15 @@ export default function AutisticBurnoutPage() {
       </p>
 
       <div style={relatedStyle}>
-        <p style={relatedHeadStyle}>Related Pages</p>
+        <p style={relatedHeadStyle}>Keep Reading</p>
         <a href="/masking-and-unmasking" style={relatedLinkStyle}>Masking & Unmasking →</a>
-        <a href="/sensory-processing" style={relatedLinkStyle}>Sensory Processing as an Autistic Adult →</a>
+        <a href="/depression-and-autism" style={relatedLinkStyle}>Depression & Autism →</a>
         <a href="/workplace" style={relatedLinkStyle}>Workplace & Career as an Autistic Adult →</a>
       </div>
+
+      <p style={{ fontSize: "0.875rem", color: "rgba(250,250,248,0.4)", marginTop: "2rem", marginBottom: "0.5rem" }}>
+        This site is a <a href="https://webearish.com" style={{ color: "#A855F7" }} target="_blank" rel="noopener noreferrer">WeBearish</a> affiliate. 100% of merch profits are reinvested into autism acceptance programs.
+      </p>
 
       <div style={disclaimerStyle} role="note">
         <p style={disclaimerTextStyle}>

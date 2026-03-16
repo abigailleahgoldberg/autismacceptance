@@ -307,11 +307,15 @@ export default function AutismInWomenPage() {
       </p>
 
       <div style={relatedStyle}>
-        <p style={relatedHeadStyle}>Related Pages</p>
-        <a href="/late-diagnosis" style={relatedLinkStyle}>Late Diagnosis: Now What? →</a>
+        <p style={relatedHeadStyle}>Keep Reading</p>
         <a href="/masking-and-unmasking" style={relatedLinkStyle}>Masking & Unmasking →</a>
-        <a href="/autistic-burnout" style={relatedLinkStyle}>Autistic Burnout →</a>
+        <a href="/late-diagnosis" style={relatedLinkStyle}>Late Diagnosis: Now What? →</a>
+        <a href="/anxiety-and-autism" style={relatedLinkStyle}>Anxiety & Autism →</a>
       </div>
+
+      <p style={{ fontSize: "0.875rem", color: "rgba(250,250,248,0.4)", marginTop: "2rem", marginBottom: "0.5rem" }}>
+        This site is a <a href="https://webearish.com" style={{ color: "#A855F7" }} target="_blank" rel="noopener noreferrer">WeBearish</a> affiliate. 100% of merch profits are reinvested into autism acceptance programs.
+      </p>
 
       <div style={disclaimerStyle} role="note">
         <p style={disclaimerTextStyle}>

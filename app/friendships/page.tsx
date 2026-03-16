@@ -272,11 +272,15 @@ export default function FriendshipsPage() {
       </p>
 
       <div style={relatedStyle}>
-        <p style={relatedHeadStyle}>Related Pages</p>
+        <p style={relatedHeadStyle}>Keep Reading</p>
         <a href="/relationships-and-dating" style={relatedLinkStyle}>Relationships & Dating While Autistic →</a>
-        <a href="/disclosure" style={relatedLinkStyle}>Disclosure: When and How to Tell People You're Autistic →</a>
-        <a href="/autistic-burnout" style={relatedLinkStyle}>Autistic Burnout →</a>
+        <a href="/masking-and-unmasking" style={relatedLinkStyle}>Masking & Unmasking →</a>
+        <a href="/community" style={relatedLinkStyle}>Community →</a>
       </div>
+
+      <p style={{ fontSize: "0.875rem", color: "rgba(250,250,248,0.4)", marginTop: "2rem", marginBottom: "0.5rem" }}>
+        This site is a <a href="https://webearish.com" style={{ color: "#A855F7" }} target="_blank" rel="noopener noreferrer">WeBearish</a> affiliate. 100% of merch profits are reinvested into autism acceptance programs.
+      </p>
 
       <div style={disclaimerStyle} role="note">
         <p style={disclaimerTextStyle}>

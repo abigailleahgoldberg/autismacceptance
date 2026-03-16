@@ -197,9 +197,9 @@ export default function MaskingAndUnmaskingPage() {
 
       <p style={bodyStyle}>
         Pearson and Rose (2021) and subsequent research have documented the substantial
-        costs of autistic camouflaging. These include significantly elevated rates of
-        anxiety, depression, and suicidal ideation in autistic people who mask heavily.
-        They include autistic burnout — the prolonged collapse of functioning that follows
+        costs of autistic camouflaging. These include significantly elevated rates of{" "}
+        <a href="/anxiety-and-autism" style={{ color: "#A855F7" }}>anxiety</a>, depression, and suicidal ideation in autistic people who mask heavily.
+        They include <a href="/autistic-burnout" style={{ color: "#A855F7" }}>autistic burnout</a> — the prolonged collapse of functioning that follows
         years of sustained masking demand. They include a compromised sense of identity
         — not knowing who you actually are because you've spent so long performing who
         you're supposed to be.
@@ -243,7 +243,9 @@ export default function MaskingAndUnmaskingPage() {
 
       <p style={bodyStyle}>
         There's also the question of who you are without the mask. For people who have
-        been masking since early childhood, the answer isn't immediately obvious. Unmasking
+        been masking since early childhood, the answer isn't immediately obvious. This
+        is especially common among autistic adults who received a <a href="/late-diagnosis" style={{ color: "#A855F7" }}>late diagnosis</a> — the
+        mask was built long before there was a framework to understand it. Unmasking
         isn't just removing something — it's rediscovering, or sometimes building for the
         first time, a sense of who you actually are.
       </p>
@@ -282,11 +284,15 @@ export default function MaskingAndUnmaskingPage() {
       </p>
 
       <div style={relatedStyle}>
-        <p style={relatedHeadStyle}>Related Pages</p>
+        <p style={relatedHeadStyle}>Keep Reading</p>
         <a href="/autistic-burnout" style={relatedLinkStyle}>Autistic Burnout →</a>
         <a href="/late-diagnosis" style={relatedLinkStyle}>Late Diagnosis: Now What? →</a>
-        <a href="/autism-in-women" style={relatedLinkStyle}>Autism in Women & Gender-Diverse People →</a>
+        <a href="/anxiety-and-autism" style={relatedLinkStyle}>Anxiety & Autism →</a>
       </div>
+
+      <p style={{ fontSize: "0.875rem", color: "rgba(250,250,248,0.4)", marginTop: "2rem", marginBottom: "0.5rem" }}>
+        This site is a <a href="https://webearish.com" style={{ color: "#A855F7" }} target="_blank" rel="noopener noreferrer">WeBearish</a> affiliate. 100% of merch profits are reinvested into autism acceptance programs.
+      </p>
 
       <div style={disclaimerStyle} role="note">
         <p style={disclaimerTextStyle}>

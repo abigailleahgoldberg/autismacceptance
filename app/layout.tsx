@@ -1,7 +1,15 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
+import { IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
+
+const plexMono = IBM_Plex_Mono({
+  weight: ["400", "500", "600", "700"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-mono",
+});
 
 const navStyle: React.CSSProperties = {
   position: "sticky",
@@ -299,7 +307,7 @@ export default function RootLayout({
   const [openMobileCategory, setOpenMobileCategory] = useState<number | null>(null);
 
   return (
-    <html lang="en">
+    <html lang="en" className={plexMono.variable}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Autism Acceptance World -- The Adult Autism Resource</title>
@@ -318,7 +326,7 @@ export default function RootLayout({
         <meta name="twitter:description" content="Built for autistic adults. No cure narratives. Real acceptance." />
         <meta name="twitter:image" content="https://autismacceptance.world/bears/bears-together.jpg" />
       </head>
-      <body>
+      <body className={plexMono.className}>
         <nav style={navStyle} aria-label="Main navigation">
           <div style={navInnerStyle}>
             <div style={{ display: "flex", flexDirection: "column" as const, gap: "2px", flexShrink: 0, minWidth: 0 }}>

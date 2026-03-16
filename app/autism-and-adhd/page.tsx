@@ -291,11 +291,15 @@ export default function AutismAndADHDPage() {
       </p>
 
       <div style={relatedStyle}>
-        <p style={relatedHeadStyle}>Related Pages</p>
-        <a href="/executive-function" style={relatedLinkStyle}>Executive Function: The Operating System Nobody Taught You →</a>
+        <p style={relatedHeadStyle}>Keep Reading</p>
+        <a href="/executive-function" style={relatedLinkStyle}>Executive Function →</a>
         <a href="/autistic-burnout" style={relatedLinkStyle}>Autistic Burnout →</a>
-        <a href="/sensory-processing" style={relatedLinkStyle}>Sensory Processing as an Autistic Adult →</a>
+        <a href="/medication" style={relatedLinkStyle}>Medication Considerations for Autistic Adults →</a>
       </div>
+
+      <p style={{ fontSize: "0.875rem", color: "rgba(250,250,248,0.4)", marginTop: "2rem", marginBottom: "0.5rem" }}>
+        This site is a <a href="https://webearish.com" style={{ color: "#A855F7" }} target="_blank" rel="noopener noreferrer">WeBearish</a> affiliate. 100% of merch profits are reinvested into autism acceptance programs.
+      </p>
 
       <div style={disclaimerStyle} role="note">
         <p style={disclaimerTextStyle}>

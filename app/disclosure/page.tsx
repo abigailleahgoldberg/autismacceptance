@@ -352,11 +352,15 @@ export default function DisclosurePage() {
       </p>
 
       <div style={relatedStyle}>
-        <p style={relatedHeadStyle}>Related Pages</p>
+        <p style={relatedHeadStyle}>Keep Reading</p>
         <a href="/workplace" style={relatedLinkStyle}>Workplace & Career as an Autistic Adult →</a>
         <a href="/relationships-and-dating" style={relatedLinkStyle}>Relationships & Dating While Autistic →</a>
         <a href="/late-diagnosis" style={relatedLinkStyle}>Late Diagnosis: Now What? →</a>
       </div>
+
+      <p style={{ fontSize: "0.875rem", color: "rgba(250,250,248,0.4)", marginTop: "2rem", marginBottom: "0.5rem" }}>
+        This site is a <a href="https://webearish.com" style={{ color: "#A855F7" }} target="_blank" rel="noopener noreferrer">WeBearish</a> affiliate. 100% of merch profits are reinvested into autism acceptance programs.
+      </p>
 
       <div style={disclaimerStyle} role="note">
         <p style={disclaimerTextStyle}>

@@ -251,6 +251,17 @@ export default function CrisisResourcesPage() {
         If you do not currently have a mental health provider, the resources at our <a href="/therapist-directory" style={{ color: "#A855F7" }}>therapist directory page</a> include information on finding neurodivergent-affirming providers. Finding a therapist who understands autism makes a real difference.
       </p>
 
+      <div style={{ backgroundColor: "rgba(107, 33, 168, 0.07)", border: "1px solid rgba(168, 85, 247, 0.2)", borderRadius: "10px", padding: "1.5rem", marginTop: "2rem" }}>
+        <p style={{ fontSize: "0.875rem", fontWeight: 700, textTransform: "uppercase" as const, letterSpacing: "0.08em", color: "rgba(250, 250, 248, 0.45)", marginBottom: "1rem" }}>Keep Reading</p>
+        <a href="/finding-affirming-therapy" style={{ display: "block", color: "#A855F7", fontSize: "1rem", fontWeight: 600, textDecoration: "none", padding: "0.35rem 0" }}>Finding Affirming Therapy →</a>
+        <a href="/depression-and-autism" style={{ display: "block", color: "#A855F7", fontSize: "1rem", fontWeight: 600, textDecoration: "none", padding: "0.35rem 0" }}>Depression & Autism →</a>
+        <a href="/community" style={{ display: "block", color: "#A855F7", fontSize: "1rem", fontWeight: 600, textDecoration: "none", padding: "0.35rem 0" }}>Community →</a>
+      </div>
+
+      <p style={{ fontSize: "0.875rem", color: "rgba(250,250,248,0.4)", marginTop: "1.5rem", marginBottom: "0.5rem" }}>
+        The <a href="https://webearish.com/community" style={{ color: "#A855F7" }} target="_blank" rel="noopener noreferrer">WeBearish community</a> is a space for families navigating autism. This site is a WeBearish affiliate — 100% of merch profits are reinvested into autism acceptance programs.
+      </p>
+
       <p style={disclaimerStyle}>
         We are not doctors. We are advocates. This page provides resource information only. It is not a substitute for professional mental health care or emergency services.
       </p>

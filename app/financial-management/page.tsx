@@ -267,11 +267,15 @@ export default function FinancialManagementPage() {
       </p>
 
       <div style={relatedStyle}>
-        <p style={relatedHeadStyle}>Related Pages</p>
-        <a href="/executive-function" style={relatedLinkStyle}>Executive Function →</a>
+        <p style={relatedHeadStyle}>Keep Reading</p>
         <a href="/independent-living" style={relatedLinkStyle}>Living Independently as an Autistic Adult →</a>
-        <a href="/workplace" style={relatedLinkStyle}>Workplace & Career as an Autistic Adult →</a>
+        <a href="/executive-function" style={relatedLinkStyle}>Executive Function →</a>
+        <a href="/legal-rights" style={relatedLinkStyle}>Legal Rights for Autistic Adults →</a>
       </div>
+
+      <p style={{ fontSize: "0.875rem", color: "rgba(250,250,248,0.4)", marginTop: "2rem", marginBottom: "0.5rem" }}>
+        This site is a <a href="https://webearish.com" style={{ color: "#A855F7" }} target="_blank" rel="noopener noreferrer">WeBearish</a> affiliate. 100% of merch profits are reinvested into autism acceptance programs.
+      </p>
 
       <div style={disclaimerStyle} role="note">
         <p style={disclaimerTextStyle}>

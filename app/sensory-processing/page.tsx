@@ -301,7 +301,8 @@ export default function SensoryProcessingPage() {
       <p style={bodyStyle}>
         Open-plan offices, fluorescent lighting, ambient noise, colleagues who wear strong
         fragrances, communal kitchens — the modern workplace is often a sensory nightmare.
-        Here are practical strategies that can make it workable.
+        Here are practical strategies that can make it workable. For formal accommodation
+        strategies, see our <a href="/workplace" style={{ color: "#A855F7" }}>workplace guide</a>.
       </p>
 
       <ul style={listStyle}>
@@ -330,11 +331,15 @@ export default function SensoryProcessingPage() {
       </ul>
 
       <div style={relatedStyle}>
-        <p style={relatedHeadStyle}>Related Pages</p>
-        <a href="/autistic-burnout" style={relatedLinkStyle}>Autistic Burnout →</a>
+        <p style={relatedHeadStyle}>Keep Reading</p>
+        <a href="/independent-living" style={relatedLinkStyle}>Living Independently as an Autistic Adult →</a>
         <a href="/executive-function" style={relatedLinkStyle}>Executive Function →</a>
         <a href="/workplace" style={relatedLinkStyle}>Workplace & Career as an Autistic Adult →</a>
       </div>
+
+      <p style={{ fontSize: "0.875rem", color: "rgba(250,250,248,0.4)", marginTop: "2rem", marginBottom: "0.5rem" }}>
+        For sensory-friendly tools and resources, visit <a href="https://webearish.com/sensory-tools-guide" style={{ color: "#A855F7" }} target="_blank" rel="noopener noreferrer">WeBearish's Sensory Tools Guide</a>. This site is a WeBearish affiliate — 100% of merch profits are reinvested into autism acceptance programs.
+      </p>
 
       <div style={disclaimerStyle} role="note">
         <p style={disclaimerTextStyle}>

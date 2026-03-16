@@ -175,10 +175,10 @@ export default function DepressionAndAutismPage() {
 
       <h2 style={h2Style}>The Masking Toll</h2>
       <p style={paraStyle}>
-        Masking — hiding autistic traits to appear neurotypical — is one of the strongest
+        <a href="/masking-and-unmasking" style={{ color: "#A855F7" }}>Masking</a> — hiding autistic traits to appear neurotypical — is one of the strongest
         predictors of depression in autistic people. The research on this is consistent and clear.
         Autistic adults who mask heavily are significantly more likely to experience depression,
-        anxiety, and suicidal ideation than those who mask less.
+        anxiety, and <a href="/autistic-burnout" style={{ color: "#A855F7" }}>autistic burnout</a> than those who mask less.
       </p>
       <p style={paraStyle}>
         This is not surprising. Masking requires enormous cognitive and emotional resources.
@@ -275,6 +275,17 @@ export default function DepressionAndAutismPage() {
           for more autistic-specific support.
         </p>
       </div>
+
+      <div style={{ backgroundColor: "rgba(107, 33, 168, 0.07)", border: "1px solid rgba(168, 85, 247, 0.2)", borderRadius: "10px", padding: "1.5rem", marginTop: "2rem" }}>
+        <p style={{ fontSize: "0.875rem", fontWeight: 700, textTransform: "uppercase" as const, letterSpacing: "0.08em", color: "rgba(250, 250, 248, 0.45)", marginBottom: "1rem" }}>Keep Reading</p>
+        <a href="/autistic-burnout" style={{ display: "block", color: "#A855F7", fontSize: "1rem", fontWeight: 600, textDecoration: "none", padding: "0.35rem 0" }}>Autistic Burnout →</a>
+        <a href="/masking-and-unmasking" style={{ display: "block", color: "#A855F7", fontSize: "1rem", fontWeight: 600, textDecoration: "none", padding: "0.35rem 0" }}>Masking & Unmasking →</a>
+        <a href="/finding-affirming-therapy" style={{ display: "block", color: "#A855F7", fontSize: "1rem", fontWeight: 600, textDecoration: "none", padding: "0.35rem 0" }}>Finding Affirming Therapy →</a>
+      </div>
+
+      <p style={{ fontSize: "0.875rem", color: "rgba(250,250,248,0.4)", marginTop: "2rem" }}>
+        This site is a <a href="https://webearish.com" style={{ color: "#A855F7" }} target="_blank" rel="noopener noreferrer">WeBearish</a> affiliate. 100% of merch profits are reinvested into autism acceptance programs.
+      </p>
     </main>
   );
 }

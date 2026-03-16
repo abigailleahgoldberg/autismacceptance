@@ -283,6 +283,17 @@ Thank you,
         <li style={{ marginBottom: "0.75rem" }}><strong style={{ color: "#FAFAF8" }}>Autistic Self Advocacy Network</strong> — autisticadvocacy.org — Policy resources and guides on autistic rights.</li>
       </ul>
 
+      <div style={{ backgroundColor: "rgba(107, 33, 168, 0.07)", border: "1px solid rgba(168, 85, 247, 0.2)", borderRadius: "10px", padding: "1.5rem", marginTop: "2rem" }}>
+        <p style={{ fontSize: "0.875rem", fontWeight: 700, textTransform: "uppercase" as const, letterSpacing: "0.08em", color: "rgba(250, 250, 248, 0.45)", marginBottom: "1rem" }}>Keep Reading</p>
+        <a href="/workplace" style={{ display: "block", color: "#A855F7", fontSize: "1rem", fontWeight: 600, textDecoration: "none", padding: "0.35rem 0" }}>Workplace & Career as an Autistic Adult →</a>
+        <a href="/college-and-education" style={{ display: "block", color: "#A855F7", fontSize: "1rem", fontWeight: 600, textDecoration: "none", padding: "0.35rem 0" }}>College & Education →</a>
+        <a href="/disclosure" style={{ display: "block", color: "#A855F7", fontSize: "1rem", fontWeight: 600, textDecoration: "none", padding: "0.35rem 0" }}>Disclosure: When and How to Tell People →</a>
+      </div>
+
+      <p style={{ fontSize: "0.875rem", color: "rgba(250,250,248,0.4)", marginTop: "1.5rem", marginBottom: "0.5rem" }}>
+        This site is a <a href="https://webearish.com" style={{ color: "#A855F7" }} target="_blank" rel="noopener noreferrer">WeBearish</a> affiliate. 100% of merch profits are reinvested into autism acceptance programs.
+      </p>
+
       <p style={disclaimerStyle}>
         We are not doctors or lawyers. We are advocates. This page provides general legal information only and does not constitute legal advice. Laws and their application vary by jurisdiction and individual circumstance. For specific legal situations, consult a disability rights attorney or your state's Protection and Advocacy organization.
       </p>

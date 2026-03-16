@@ -157,6 +157,7 @@ export default function LateDiagnosisPage() {
         What you're feeling right now — grief, relief, anger, clarity, joy, disorientation,
         all at the same time — is completely normal. Many autistic adults describe the
         period after late diagnosis as one of the most emotionally complex of their lives.
+        If you've spent years <a href="/masking-and-unmasking" style={{ color: "#A855F7" }}>masking</a> to fit in, the diagnosis can reframe a lot of that history.
       </p>
 
       <p style={bodyStyle}>
@@ -260,7 +261,8 @@ export default function LateDiagnosisPage() {
         <li><strong style={{ color: "#FAFAF8" }}>Revisit your history with new eyes.</strong> Some autistic adults find that journaling about their past through an autistic lens — understanding past struggles, moments of burnout, relationship difficulties — is profoundly healing. Others find it overwhelming. Do what works for you.</li>
         <li><strong style={{ color: "#FAFAF8" }}>Consider what accommodations you've been missing.</strong> Think about your home, work, and social environments. Where are the friction points? A late diagnosis is often an invitation to finally arrange your life in a way that works for your actual brain.</li>
         <li><strong style={{ color: "#FAFAF8" }}>Don't rush to tell everyone.</strong> Disclosure is a decision, not an obligation. You get to decide who knows, when, and how. Take time to process before you start explaining your diagnosis to others.</li>
-        <li><strong style={{ color: "#FAFAF8" }}>Find a therapist who gets it — if you want one.</strong> Not every autistic adult needs therapy. But if you do seek one out, look for someone who is affirming, who uses identity-first language, and who doesn't treat autism as something to overcome.</li>
+        <li><strong style={{ color: "#FAFAF8" }}>Find a therapist who gets it — if you want one.</strong> Not every autistic adult needs therapy. But if you do seek one out, look for someone who is affirming, who uses identity-first language, and who doesn't treat autism as something to overcome. Our <a href="/finding-affirming-therapy" style={{ color: "#A855F7" }}>guide to finding affirming therapy</a> walks through what that actually looks like.</li>
+        <li><strong style={{ color: "#FAFAF8" }}>Watch for burnout.</strong> The period following a late diagnosis often involves intense learning, processing, and emotional labor — all of which can contribute to <a href="/autistic-burnout" style={{ color: "#A855F7" }}>autistic burnout</a> if you don't pace yourself.</li>
       </ul>
 
       <h2 style={h2Style}>You Didn't Miss Out on Being Autistic</h2>
@@ -283,11 +285,15 @@ export default function LateDiagnosisPage() {
       </p>
 
       <div style={relatedStyle}>
-        <p style={relatedHeadStyle}>Related Pages</p>
+        <p style={relatedHeadStyle}>Keep Reading</p>
         <a href="/masking-and-unmasking" style={relatedLinkStyle}>Masking & Unmasking →</a>
         <a href="/autistic-burnout" style={relatedLinkStyle}>Autistic Burnout →</a>
-        <a href="/autism-in-women" style={relatedLinkStyle}>Autism in Women & Gender-Diverse People →</a>
+        <a href="/disclosure" style={relatedLinkStyle}>Disclosure: When and How to Tell People →</a>
       </div>
+
+      <p style={{ fontSize: "0.875rem", color: "rgba(250,250,248,0.4)", marginTop: "2rem", marginBottom: "0.5rem" }}>
+        For parents discovering their child may be autistic, <a href="https://webearish.com/parents" style={{ color: "#A855F7" }} target="_blank" rel="noopener noreferrer">WeBearish</a> is built specifically for families navigating that journey.
+      </p>
 
       <div style={disclaimerStyle} role="note">
         <p style={disclaimerTextStyle}>

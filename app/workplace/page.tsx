@@ -156,7 +156,7 @@ export default function WorkplacePage() {
       <h2 style={h2Style}>Disclosure: The Decision Framework</h2>
 
       <p style={bodyStyle}>
-        Whether to disclose your autism to an employer is one of the most complex
+        Whether to <a href="/disclosure" style={{ color: "#A855F7" }}>disclose your autism</a> to an employer is one of the most complex
         decisions autistic adults face in the workplace. There's no universally right answer.
         The calculus is different for every person and every job.
       </p>
@@ -283,11 +283,15 @@ export default function WorkplacePage() {
       </p>
 
       <div style={relatedStyle}>
-        <p style={relatedHeadStyle}>Related Pages</p>
+        <p style={relatedHeadStyle}>Keep Reading</p>
         <a href="/disclosure" style={relatedLinkStyle}>Disclosure: When and How to Tell People You're Autistic →</a>
-        <a href="/autistic-burnout" style={relatedLinkStyle}>Autistic Burnout →</a>
-        <a href="/sensory-processing" style={relatedLinkStyle}>Sensory Processing as an Autistic Adult →</a>
+        <a href="/legal-rights" style={relatedLinkStyle}>Legal Rights for Autistic Adults →</a>
+        <a href="/executive-function" style={relatedLinkStyle}>Executive Function →</a>
       </div>
+
+      <p style={{ fontSize: "0.875rem", color: "rgba(250,250,248,0.4)", marginTop: "2rem", marginBottom: "0.5rem" }}>
+        This site is a <a href="https://webearish.com" style={{ color: "#A855F7" }} target="_blank" rel="noopener noreferrer">WeBearish</a> affiliate. 100% of merch profits are reinvested into autism acceptance programs.
+      </p>
 
       <div style={disclaimerStyle} role="note">
         <p style={disclaimerTextStyle}>

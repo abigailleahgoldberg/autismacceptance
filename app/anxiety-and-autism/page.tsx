@@ -188,7 +188,7 @@ export default function AnxietyAndAutismPage() {
         <li style={liStyle}>
           <strong style={{ color: "#FAFAF8" }}>Affirming therapy:</strong> CBT adapted for
           autistic neurology, somatic approaches, and therapists who understand autism can be
-          genuinely helpful. See our page on finding affirming therapy.
+          genuinely helpful. See our page on <a href="/finding-affirming-therapy" style={{ color: "#A855F7" }}>finding affirming therapy</a>.
         </li>
         <li style={liStyle}>
           <strong style={{ color: "#FAFAF8" }}>Community:</strong> Being around other autistic
@@ -261,6 +261,17 @@ export default function AnxietyAndAutismPage() {
           for autistic-specific support.
         </p>
       </div>
+
+      <div style={{ backgroundColor: "rgba(107, 33, 168, 0.07)", border: "1px solid rgba(168, 85, 247, 0.2)", borderRadius: "10px", padding: "1.5rem", marginTop: "2rem" }}>
+        <p style={{ fontSize: "0.875rem", fontWeight: 700, textTransform: "uppercase" as const, letterSpacing: "0.08em", color: "rgba(250, 250, 248, 0.45)", marginBottom: "1rem" }}>Keep Reading</p>
+        <a href="/autistic-burnout" style={{ display: "block", color: "#A855F7", fontSize: "1rem", fontWeight: 600, textDecoration: "none", padding: "0.35rem 0" }}>Autistic Burnout →</a>
+        <a href="/sensory-processing" style={{ display: "block", color: "#A855F7", fontSize: "1rem", fontWeight: 600, textDecoration: "none", padding: "0.35rem 0" }}>Sensory Processing as an Autistic Adult →</a>
+        <a href="/finding-affirming-therapy" style={{ display: "block", color: "#A855F7", fontSize: "1rem", fontWeight: 600, textDecoration: "none", padding: "0.35rem 0" }}>Finding Affirming Therapy →</a>
+      </div>
+
+      <p style={{ fontSize: "0.875rem", color: "rgba(250,250,248,0.4)", marginTop: "2rem" }}>
+        This site is a <a href="https://webearish.com" style={{ color: "#A855F7" }} target="_blank" rel="noopener noreferrer">WeBearish</a> affiliate. 100% of merch profits are reinvested into autism acceptance programs.
+      </p>
     </main>
   );
 }
