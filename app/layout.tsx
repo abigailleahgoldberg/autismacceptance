@@ -578,6 +578,7 @@ export default function RootLayout({
                 &copy; {new Date().getFullYear()} Autism Acceptance World. Not a medical site.
                 Nothing here constitutes medical advice. For diagnosis, see a qualified professional.
               </p>
+              <p style={{ fontSize: "0.75rem", color: "rgba(250, 250, 248, 0.2)", marginBottom: 0 }}>Last updated: March 2026</p>
               <div style={{ display: "flex", gap: "20px", flexWrap: "wrap", alignItems: "center", paddingTop: "12px" }}>
                 <span style={{ fontSize: "0.7rem", fontWeight: 700, color: "rgba(168,85,247,0.6)", letterSpacing: "0.12em", textTransform: "uppercase" as const }}>Resources</span>
                 <a href="https://autisticadvocacy.org" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(250,250,248,0.45)", fontSize: "0.8rem", textDecoration: "none" }}>Autistic Self Advocacy Network (ASAN) →</a>

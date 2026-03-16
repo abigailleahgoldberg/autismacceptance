@@ -407,7 +407,7 @@ export default function HomePage() {
           <div style={{ marginBottom: "clamp(1.5rem, 4vw, 2.5rem)" }}>
             <Image
               src="/bears/bears-together.jpg"
-              alt="Bears together"
+              alt="Autism acceptance bear family standing together in a forest"
               width={800}
               height={300}
               style={{ width: "100%", maxWidth: 600, height: "auto", borderRadius: 12, objectFit: "cover", margin: "0 auto", display: "block", opacity: 0.85 }}
