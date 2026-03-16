@@ -216,7 +216,6 @@ export default function RootLayout({
                 border: "none",
                 cursor: "pointer",
                 padding: "0.5rem",
-                display: "none",
                 alignItems: "center",
                 justifyContent: "center",
                 minHeight: "44px",
@@ -309,17 +308,15 @@ export default function RootLayout({
         </nav>
 
         <style>{`
+          .nav-hamburger {
+            display: none;
+          }
           @media (max-width: 768px) {
             .nav-desktop {
               display: none !important;
             }
             .nav-hamburger {
               display: flex !important;
-            }
-          }
-          @media (min-width: 769px) {
-            .nav-hamburger {
-              display: none !important;
             }
           }
           .footer-grid {
