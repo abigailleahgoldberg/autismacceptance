@@ -222,11 +222,23 @@ export default function RootLayout({
           {/* Mobile nav drawer */}
           <ul
             id="mobile-nav"
-            className={`nav-links${menuOpen ? " open" : ""}`}
+            className="nav-links"
             style={{
               listStyle: "none",
-              padding: 0,
               margin: 0,
+              display: menuOpen ? "flex" : "none",
+              position: "fixed" as const,
+              top: "64px",
+              left: 0,
+              right: 0,
+              bottom: 0,
+              backgroundColor: "rgba(9, 8, 15, 0.97)",
+              flexDirection: "column" as const,
+              alignItems: "flex-start",
+              padding: "1.5rem",
+              gap: "0.5rem",
+              zIndex: 99,
+              overflowY: "auto" as const,
             }}
             aria-hidden={!menuOpen}
           >
