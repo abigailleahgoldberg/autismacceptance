@@ -21,6 +21,7 @@ const navInnerStyle: React.CSSProperties = {
   justifyContent: "space-between",
   height: "64px",
   gap: "1rem",
+  position: "relative",
 };
 
 const logoStyle: React.CSSProperties = {
@@ -170,9 +171,15 @@ export default function RootLayout({
       <body>
         <nav style={navStyle} aria-label="Main navigation">
           <div style={navInnerStyle}>
-            <a href="/" style={logoStyle} aria-label="Autism Acceptance World home">
-              <span style={logoTextStyle}>Autism Acceptance</span>
-              <span style={logoWorldStyle}>World</span>
+            <a href="/" style={{ ...logoStyle, display: "flex", alignItems: "center", gap: "10px" }} aria-label="Autism Acceptance World home">
+              <img src="/bears/bear-forest.jpg" alt="" style={{ width: 36, height: 36, borderRadius: "50%", objectFit: "cover" }} />
+              <span>
+                <span style={logoTextStyle}>Autism Acceptance</span>
+                <span style={logoWorldStyle}> World</span>
+              </span>
+            </a>
+            <a href="https://webearish.com" target="_blank" rel="noopener noreferrer" style={{ fontSize: "10px", color: "rgba(168,85,247,0.6)", textDecoration: "none", position: "absolute" as const, top: "48px", left: "58px", letterSpacing: "0.5px" }}>
+              A WeBearish Affiliate
             </a>
 
             {/* Desktop nav */}
