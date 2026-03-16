@@ -1,27 +1,7 @@
-import type { Metadata } from "next";
-import "./globals.css";
+"use client";
 
-export const metadata: Metadata = {
-  title: "Autism Acceptance World -- The Adult Autism Resource",
-  description:
-    "The world's greatest autism acceptance resource. Built for autistic adults. No cure narratives. No inspiration porn. Real information, real community, real acceptance.",
-  keywords:
-    "autism, autistic adults, autism acceptance, late diagnosis, autism resources, neurodiversity, autistic community",
-  openGraph: {
-    title: "Autism Acceptance World",
-    description:
-      "Built for autistic adults, by people who get it. The largest adult autism resource on the internet.",
-    url: "https://autismacceptance.world",
-    siteName: "Autism Acceptance World",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Autism Acceptance World",
-    description: "Built for autistic adults. No cure narratives. No inspiration porn.",
-  },
-  metadataBase: new URL("https://autismacceptance.world"),
-};
+import { useState } from "react";
+import "./globals.css";
 
 const navStyle: React.CSSProperties = {
   position: "sticky",
@@ -65,21 +45,13 @@ const logoWorldStyle: React.CSSProperties = {
   letterSpacing: "-0.01em",
 };
 
-const navLinksStyle: React.CSSProperties = {
-  display: "flex",
-  alignItems: "center",
-  gap: "1.5rem",
-  listStyle: "none",
-  padding: 0,
-  margin: 0,
-};
-
 const navLinkStyle: React.CSSProperties = {
   color: "rgba(250, 250, 248, 0.7)",
   fontSize: "0.9375rem",
   fontWeight: 500,
   textDecoration: "none",
   transition: "color 0.2s",
+  whiteSpace: "nowrap",
 };
 
 const ctaButtonStyle: React.CSSProperties = {
@@ -91,8 +63,10 @@ const ctaButtonStyle: React.CSSProperties = {
   fontWeight: 600,
   textDecoration: "none",
   border: "none",
-  display: "inline-block",
+  display: "flex",
+  alignItems: "center",
   transition: "background-color 0.2s",
+  minHeight: "44px",
 };
 
 const footerStyle: React.CSSProperties = {
@@ -105,13 +79,6 @@ const footerStyle: React.CSSProperties = {
 const footerInnerStyle: React.CSSProperties = {
   maxWidth: "1200px",
   margin: "0 auto",
-};
-
-const footerGridStyle: React.CSSProperties = {
-  display: "grid",
-  gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
-  gap: "2rem",
-  marginBottom: "2.5rem",
 };
 
 const footerHeadingStyle: React.CSSProperties = {
@@ -135,7 +102,8 @@ const footerLinkStyle: React.CSSProperties = {
   fontSize: "0.875rem",
   textDecoration: "none",
   display: "block",
-  marginBottom: "0.4rem",
+  marginBottom: "0.5rem",
+  padding: "0.2rem 0",
   transition: "color 0.2s",
 };
 
@@ -153,13 +121,52 @@ const footerLegalStyle: React.CSSProperties = {
   marginBottom: 0,
 };
 
+function HamburgerIcon({ open }: { open: boolean }) {
+  return (
+    <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="#FAFAF8"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      {open ? (
+        <>
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </>
+      ) : (
+        <>
+          <line x1="3" y1="6" x2="21" y2="6" />
+          <line x1="3" y1="12" x2="21" y2="12" />
+          <line x1="3" y1="18" x2="21" y2="18" />
+        </>
+      )}
+    </svg>
+  );
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <html lang="en">
+      <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Autism Acceptance World -- The Adult Autism Resource</title>
+        <meta
+          name="description"
+          content="The world's greatest autism acceptance resource. Built for autistic adults. No cure narratives. No inspiration porn. Real information, real community, real acceptance."
+        />
+      </head>
       <body>
         <nav style={navStyle} aria-label="Main navigation">
           <div style={navInnerStyle}>
@@ -167,31 +174,156 @@ export default function RootLayout({
               <span style={logoTextStyle}>Autism Acceptance</span>
               <span style={logoWorldStyle}>World</span>
             </a>
-            <ul style={navLinksStyle}>
-              <li>
-                <a href="/community" style={navLinkStyle}>Community</a>
-              </li>
-              <li>
-                <a href="/resources" style={navLinkStyle}>Resources</a>
-              </li>
-              <li>
-                <a href="/blog" style={navLinkStyle}>Blog</a>
-              </li>
-              <li>
-                <a href="/shop" style={navLinkStyle}>Shop</a>
-              </li>
+
+            {/* Desktop nav */}
+            <ul
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "1.5rem",
+                listStyle: "none",
+                padding: 0,
+                margin: 0,
+              }}
+              className="nav-desktop"
+            >
+              <li><a href="/community" style={navLinkStyle}>Community</a></li>
+              <li><a href="/resources" style={navLinkStyle}>Resources</a></li>
+              <li><a href="/blog" style={navLinkStyle}>Blog</a></li>
+              <li><a href="/shop" style={navLinkStyle}>Shop</a></li>
               <li>
                 <a href="/community" style={ctaButtonStyle}>Get Support</a>
               </li>
             </ul>
+
+            {/* Mobile hamburger */}
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              aria-label={menuOpen ? "Close menu" : "Open menu"}
+              aria-expanded={menuOpen}
+              aria-controls="mobile-nav"
+              style={{
+                background: "none",
+                border: "none",
+                cursor: "pointer",
+                padding: "0.5rem",
+                display: "none",
+                alignItems: "center",
+                justifyContent: "center",
+                minHeight: "44px",
+                minWidth: "44px",
+              }}
+              className="nav-hamburger"
+            >
+              <HamburgerIcon open={menuOpen} />
+            </button>
           </div>
+
+          {/* Mobile nav drawer */}
+          <ul
+            id="mobile-nav"
+            className={`nav-links${menuOpen ? " open" : ""}`}
+            style={{
+              listStyle: "none",
+              padding: 0,
+              margin: 0,
+            }}
+            aria-hidden={!menuOpen}
+          >
+            <li>
+              <a
+                href="/community"
+                style={{ ...navLinkStyle, display: "block", padding: "0.875rem 0", borderBottom: "1px solid rgba(168,85,247,0.1)", fontSize: "1.0625rem" }}
+                onClick={() => setMenuOpen(false)}
+              >
+                Community
+              </a>
+            </li>
+            <li>
+              <a
+                href="/resources"
+                style={{ ...navLinkStyle, display: "block", padding: "0.875rem 0", borderBottom: "1px solid rgba(168,85,247,0.1)", fontSize: "1.0625rem" }}
+                onClick={() => setMenuOpen(false)}
+              >
+                Resources
+              </a>
+            </li>
+            <li>
+              <a
+                href="/blog"
+                style={{ ...navLinkStyle, display: "block", padding: "0.875rem 0", borderBottom: "1px solid rgba(168,85,247,0.1)", fontSize: "1.0625rem" }}
+                onClick={() => setMenuOpen(false)}
+              >
+                Blog
+              </a>
+            </li>
+            <li>
+              <a
+                href="/shop"
+                style={{ ...navLinkStyle, display: "block", padding: "0.875rem 0", borderBottom: "1px solid rgba(168,85,247,0.1)", fontSize: "1.0625rem" }}
+                onClick={() => setMenuOpen(false)}
+              >
+                Shop
+              </a>
+            </li>
+            <li style={{ paddingTop: "0.75rem" }}>
+              <a
+                href="/community"
+                style={{
+                  backgroundColor: "#6B21A8",
+                  color: "#FAFAF8",
+                  padding: "0.75rem 1.5rem",
+                  borderRadius: "6px",
+                  fontSize: "1rem",
+                  fontWeight: 700,
+                  textDecoration: "none",
+                  display: "inline-block",
+                }}
+                onClick={() => setMenuOpen(false)}
+              >
+                Get Support
+              </a>
+            </li>
+          </ul>
         </nav>
+
+        <style>{`
+          @media (max-width: 768px) {
+            .nav-desktop {
+              display: none !important;
+            }
+            .nav-hamburger {
+              display: flex !important;
+            }
+          }
+          @media (min-width: 769px) {
+            .nav-hamburger {
+              display: none !important;
+            }
+          }
+          .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2.5rem;
+          }
+          @media (max-width: 600px) {
+            .footer-grid {
+              grid-template-columns: 1fr 1fr;
+            }
+          }
+          @media (max-width: 420px) {
+            .footer-grid {
+              grid-template-columns: 1fr;
+            }
+          }
+        `}</style>
 
         <main>{children}</main>
 
         <footer style={footerStyle} aria-label="Site footer">
           <div style={footerInnerStyle}>
-            <div style={footerGridStyle}>
+            <div className="footer-grid">
               <div>
                 <p style={{ ...footerHeadingStyle, color: "#A855F7" }}>
                   Autism Acceptance World

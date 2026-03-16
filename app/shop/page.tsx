@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import type { Metadata } from "next";
 
 // ── Bear silhouette SVG ──────────────────────────────────────────────────────
 function BearSilhouette({ color }: { color: string }) {
@@ -13,12 +12,9 @@ function BearSilhouette({ color }: { color: string }) {
       aria-hidden="true"
       style={{ width: "60px", height: "60px", opacity: 0.55 }}
     >
-      {/* ears */}
       <circle cx="28" cy="30" r="14" />
       <circle cx="72" cy="30" r="14" />
-      {/* head */}
       <circle cx="50" cy="45" r="28" />
-      {/* body */}
       <ellipse cx="50" cy="82" rx="24" ry="18" />
     </svg>
   );
@@ -151,7 +147,6 @@ function ProductCard({ product }: { product: PlaceholderProduct }) {
         aria-hidden="true"
       >
         <BearSilhouette color={product.accentColor} />
-        {/* Reinvested badge */}
         <span
           style={{
             position: "absolute",
@@ -243,7 +238,7 @@ function ProductCard({ product }: { product: PlaceholderProduct }) {
               borderRadius: "6px",
               color: "#FAFAF8",
               fontSize: "0.9375rem",
-              padding: "0.45rem 0.75rem",
+              padding: "0.55rem 2rem 0.55rem 0.75rem",
               fontFamily: "inherit",
               outline: "none",
               cursor: "pointer",
@@ -252,7 +247,8 @@ function ProductCard({ product }: { product: PlaceholderProduct }) {
                 "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%23A855F7' stroke-width='1.5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E\")",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "right 0.75rem center",
-              paddingRight: "2rem",
+              width: "100%",
+              minHeight: "44px",
             }}
           >
             {product.sizes.map((s) => (
@@ -278,6 +274,8 @@ function ProductCard({ product }: { product: PlaceholderProduct }) {
             marginTop: "auto",
             transition: "background-color 0.2s",
             fontFamily: "inherit",
+            width: "100%",
+            minHeight: "44px",
           }}
           onMouseEnter={(e) => {
             (e.currentTarget as HTMLButtonElement).style.backgroundColor = "#7C3AED";
@@ -304,10 +302,51 @@ export default function ShopPage() {
 
   return (
     <>
+      <style>{`
+        .shop-product-grid {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 1.5rem;
+        }
+        .shop-filters {
+          display: flex;
+          gap: 0.625rem;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          padding-bottom: 0.5rem;
+          scrollbar-width: none;
+        }
+        .shop-filters::-webkit-scrollbar {
+          display: none;
+        }
+        .shop-filter-btn {
+          white-space: nowrap;
+          flex-shrink: 0;
+          min-height: 44px;
+          padding: 0 1.125rem;
+          font-family: inherit;
+        }
+        @media (max-width: 1024px) {
+          .shop-product-grid {
+            grid-template-columns: repeat(3, 1fr);
+          }
+        }
+        @media (max-width: 768px) {
+          .shop-product-grid {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+        @media (max-width: 480px) {
+          .shop-product-grid {
+            grid-template-columns: 1fr;
+          }
+        }
+      `}</style>
+
       {/* Hero */}
       <section
         style={{
-          padding: "5rem 1.5rem 3.5rem",
+          padding: "clamp(3rem, 7vw, 5rem) 1.5rem clamp(2rem, 5vw, 3.5rem)",
           textAlign: "center",
           background:
             "radial-gradient(ellipse 80% 60% at 50% 0%, rgba(107, 33, 168, 0.2) 0%, transparent 70%)",
@@ -318,7 +357,7 @@ export default function ShopPage() {
           <h1
             id="shop-heading"
             style={{
-              fontSize: "clamp(2.25rem, 5.5vw, 4rem)",
+              fontSize: "clamp(2rem, 5.5vw, 4rem)",
               fontWeight: 900,
               color: "#FAFAF8",
               letterSpacing: "-0.03em",
@@ -386,11 +425,7 @@ export default function ShopPage() {
         aria-label="Filter products"
       >
         <div
-          style={{
-            display: "flex",
-            gap: "0.625rem",
-            flexWrap: "wrap",
-          }}
+          className="shop-filters"
           role="group"
           aria-label="Product category filters"
         >
@@ -401,6 +436,7 @@ export default function ShopPage() {
                 key={cat}
                 onClick={() => setActiveFilter(cat)}
                 aria-pressed={active}
+                className="shop-filter-btn"
                 style={{
                   backgroundColor: active ? "#6B21A8" : "transparent",
                   border: active
@@ -408,11 +444,9 @@ export default function ShopPage() {
                     : "1px solid rgba(168, 85, 247, 0.3)",
                   color: active ? "#FAFAF8" : "rgba(250, 250, 248, 0.65)",
                   borderRadius: "20px",
-                  padding: "0.45rem 1.125rem",
                   fontSize: "0.9rem",
                   fontWeight: active ? 700 : 500,
                   cursor: "pointer",
-                  fontFamily: "inherit",
                   transition: "all 0.18s",
                 }}
               >
@@ -428,13 +462,7 @@ export default function ShopPage() {
         style={{ padding: "2rem 1.5rem 4rem", maxWidth: "1200px", margin: "0 auto" }}
         aria-label="Products"
       >
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(260px, 1fr))",
-            gap: "1.5rem",
-          }}
-        >
+        <div className="shop-product-grid">
           {filtered.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
@@ -447,7 +475,7 @@ export default function ShopPage() {
           backgroundColor: "rgba(107, 33, 168, 0.1)",
           borderTop: "1px solid rgba(168, 85, 247, 0.2)",
           borderBottom: "1px solid rgba(168, 85, 247, 0.2)",
-          padding: "3rem 1.5rem",
+          padding: "clamp(2rem, 5vw, 3rem) 1.5rem",
           textAlign: "center",
         }}
         aria-label="Mission statement"
@@ -455,7 +483,7 @@ export default function ShopPage() {
         <div style={{ maxWidth: "640px", margin: "0 auto" }}>
           <h2
             style={{
-              fontSize: "clamp(1.5rem, 3.5vw, 2rem)",
+              fontSize: "clamp(1.375rem, 3.5vw, 2rem)",
               fontWeight: 800,
               color: "#FAFAF8",
               letterSpacing: "-0.02em",

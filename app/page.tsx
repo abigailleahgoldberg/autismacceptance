@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { posts } from "./blog/data";
 
 const containerStyle: React.CSSProperties = {
@@ -11,14 +12,14 @@ const containerStyle: React.CSSProperties = {
 
 // Hero
 const heroStyle: React.CSSProperties = {
-  padding: "6rem 1.5rem 5rem",
+  padding: "clamp(3rem, 8vw, 6rem) 1.5rem clamp(2.5rem, 6vw, 5rem)",
   textAlign: "center",
   background:
     "radial-gradient(ellipse 80% 60% at 50% 0%, rgba(107, 33, 168, 0.18) 0%, transparent 70%)",
 };
 
 const h1Style: React.CSSProperties = {
-  fontSize: "clamp(2.5rem, 6vw, 4.5rem)",
+  fontSize: "clamp(2.25rem, 6vw, 4.5rem)",
   fontWeight: 900,
   color: "#FAFAF8",
   letterSpacing: "-0.03em",
@@ -34,61 +35,16 @@ const heroSubStyle: React.CSSProperties = {
   lineHeight: 1.7,
 };
 
-const heroCTAGroupStyle: React.CSSProperties = {
-  display: "flex",
-  gap: "1rem",
-  justifyContent: "center",
-  flexWrap: "wrap",
-};
-
-const primaryCTAStyle: React.CSSProperties = {
-  backgroundColor: "#6B21A8",
-  color: "#FAFAF8",
-  padding: "0.875rem 2rem",
-  borderRadius: "8px",
-  fontSize: "1rem",
-  fontWeight: 700,
-  textDecoration: "none",
-  display: "inline-block",
-  border: "2px solid #6B21A8",
-  transition: "all 0.2s",
-};
-
-const secondaryCTAStyle: React.CSSProperties = {
-  backgroundColor: "transparent",
-  color: "#A855F7",
-  padding: "0.875rem 2rem",
-  borderRadius: "8px",
-  fontSize: "1rem",
-  fontWeight: 700,
-  textDecoration: "none",
-  display: "inline-block",
-  border: "2px solid #A855F7",
-  transition: "all 0.2s",
-};
-
 // Stats bar
 const statsSectionStyle: React.CSSProperties = {
   backgroundColor: "rgba(107, 33, 168, 0.12)",
   borderTop: "1px solid rgba(168, 85, 247, 0.2)",
   borderBottom: "1px solid rgba(168, 85, 247, 0.2)",
-  padding: "2.5rem 1.5rem",
-};
-
-const statsGridStyle: React.CSSProperties = {
-  maxWidth: "1200px",
-  margin: "0 auto",
-  display: "grid",
-  gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-  gap: "2rem",
-};
-
-const statItemStyle: React.CSSProperties = {
-  textAlign: "center",
+  padding: "clamp(1.75rem, 4vw, 2.5rem) 1.5rem",
 };
 
 const statNumberStyle: React.CSSProperties = {
-  fontSize: "clamp(2.5rem, 5vw, 3.5rem)",
+  fontSize: "clamp(2rem, 5vw, 3.5rem)",
   fontWeight: 900,
   color: "#D97706",
   letterSpacing: "-0.03em",
@@ -110,12 +66,8 @@ const statNoteStyle: React.CSSProperties = {
 };
 
 // Section headings
-const sectionStyle: React.CSSProperties = {
-  padding: "4rem 1.5rem",
-};
-
 const sectionHeadingStyle: React.CSSProperties = {
-  fontSize: "clamp(1.75rem, 4vw, 2.5rem)",
+  fontSize: "clamp(1.625rem, 4vw, 2.5rem)",
   fontWeight: 800,
   color: "#FAFAF8",
   marginBottom: "0.5rem",
@@ -129,12 +81,6 @@ const sectionSubStyle: React.CSSProperties = {
 };
 
 // Topic cards
-const topicGridStyle: React.CSSProperties = {
-  display: "grid",
-  gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))",
-  gap: "1.5rem",
-};
-
 const topicCardStyle: React.CSSProperties = {
   backgroundColor: "rgba(107, 33, 168, 0.08)",
   border: "1px solid rgba(168, 85, 247, 0.2)",
@@ -143,12 +89,6 @@ const topicCardStyle: React.CSSProperties = {
   textDecoration: "none",
   display: "block",
   transition: "border-color 0.2s, background-color 0.2s",
-};
-
-const topicIconStyle: React.CSSProperties = {
-  fontSize: "2rem",
-  marginBottom: "1rem",
-  lineHeight: 1,
 };
 
 const topicTitleStyle: React.CSSProperties = {
@@ -166,12 +106,6 @@ const topicDescStyle: React.CSSProperties = {
 };
 
 // Blog cards
-const blogGridStyle: React.CSSProperties = {
-  display: "grid",
-  gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-  gap: "1.5rem",
-};
-
 const blogCardStyle: React.CSSProperties = {
   backgroundColor: "rgba(107, 33, 168, 0.06)",
   border: "1px solid rgba(168, 85, 247, 0.15)",
@@ -211,17 +145,12 @@ const communitySectionStyle: React.CSSProperties = {
   backgroundColor: "rgba(107, 33, 168, 0.12)",
   borderTop: "1px solid rgba(168, 85, 247, 0.2)",
   borderBottom: "1px solid rgba(168, 85, 247, 0.2)",
-  padding: "4rem 1.5rem",
+  padding: "clamp(2.5rem, 6vw, 4rem) 1.5rem",
   textAlign: "center",
 };
 
-const communityInnerStyle: React.CSSProperties = {
-  maxWidth: "640px",
-  margin: "0 auto",
-};
-
 const communityHeadingStyle: React.CSSProperties = {
-  fontSize: "clamp(1.75rem, 4vw, 2.5rem)",
+  fontSize: "clamp(1.625rem, 4vw, 2.5rem)",
   fontWeight: 800,
   color: "#FAFAF8",
   marginBottom: "1rem",
@@ -235,90 +164,43 @@ const communityTextStyle: React.CSSProperties = {
   lineHeight: 1.7,
 };
 
-const formStyle: React.CSSProperties = {
-  display: "flex",
-  gap: "0.75rem",
-  flexWrap: "wrap",
-  justifyContent: "center",
-};
-
-const inputStyle: React.CSSProperties = {
-  flex: "1 1 260px",
-  padding: "0.75rem 1rem",
-  borderRadius: "8px",
-  border: "1px solid rgba(168, 85, 247, 0.4)",
-  backgroundColor: "rgba(9, 8, 15, 0.6)",
-  color: "#FAFAF8",
-  fontSize: "1rem",
-  outline: "none",
-};
-
-const submitButtonStyle: React.CSSProperties = {
-  backgroundColor: "#6B21A8",
-  color: "#FAFAF8",
-  padding: "0.75rem 1.5rem",
-  borderRadius: "8px",
-  fontSize: "1rem",
-  fontWeight: 700,
-  border: "none",
-  cursor: "pointer",
-  transition: "background-color 0.2s",
-  flexShrink: 0,
-};
-
-// Disclaimer
 const disclaimerStyle: React.CSSProperties = {
   backgroundColor: "rgba(217, 119, 6, 0.06)",
   border: "1px solid rgba(217, 119, 6, 0.2)",
   borderRadius: "8px",
   padding: "1.25rem 1.5rem",
-  margin: "3rem 1.5rem",
+  margin: "3rem auto",
   maxWidth: "1200px",
-  marginLeft: "auto",
-  marginRight: "auto",
-};
-
-const disclaimerTextStyle: React.CSSProperties = {
-  fontSize: "0.875rem",
-  color: "rgba(250, 250, 248, 0.55)",
-  lineHeight: 1.6,
-  marginBottom: 0,
 };
 
 const topics = [
   {
     href: "/late-diagnosis",
-    icon: "🔍",
     title: "Late Diagnosis",
     desc: "Diagnosed at 30, 40, 50+? You are not alone. Here is everything you need.",
   },
   {
     href: "/masking",
-    icon: "🎭",
     title: "Masking and Unmasking",
     desc: "What masking costs you. And what unmasking can give back.",
   },
   {
     href: "/workplace",
-    icon: "💼",
     title: "Workplace Rights",
     desc: "ADA, reasonable accommodations, disclosure decisions. Know your rights.",
   },
   {
     href: "/relationships",
-    icon: "💜",
     title: "Relationships and Dating",
     desc: "Autistic love, autistic communication, autistic connection. It looks different. It is not less.",
   },
   {
     href: "/sensory",
-    icon: "🌿",
     title: "Sensory Needs",
     desc: "Your sensory experience is valid. Tools, strategies, and community knowledge.",
   },
   {
     href: "/burnout",
-    icon: "🔋",
     title: "Autistic Burnout",
     desc: "What it is, how to recognize it, and how to actually recover.",
   },
@@ -348,6 +230,177 @@ export default function HomePage() {
 
   return (
     <>
+      {/* Responsive styles */}
+      <style>{`
+        .hero-cta-group {
+          display: flex;
+          gap: 1rem;
+          justify-content: center;
+          flex-wrap: wrap;
+        }
+        .cta-primary {
+          background-color: #6B21A8;
+          color: #FAFAF8;
+          padding: 0.875rem 2rem;
+          border-radius: 8px;
+          font-size: 1rem;
+          font-weight: 700;
+          text-decoration: none;
+          display: inline-block;
+          border: 2px solid #6B21A8;
+          transition: all 0.2s;
+          min-height: 44px;
+        }
+        .cta-secondary {
+          background-color: transparent;
+          color: #A855F7;
+          padding: 0.875rem 2rem;
+          border-radius: 8px;
+          font-size: 1rem;
+          font-weight: 700;
+          text-decoration: none;
+          display: inline-block;
+          border: 2px solid #A855F7;
+          transition: all 0.2s;
+          min-height: 44px;
+        }
+        .stats-grid {
+          max-width: 1200px;
+          margin: 0 auto;
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 2rem;
+        }
+        .topic-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+          gap: 1.5rem;
+        }
+        .blog-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+          gap: 1.5rem;
+        }
+        .shop-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+          gap: 1.25rem;
+          margin-bottom: 2.5rem;
+        }
+        .section-pad {
+          padding: clamp(2.5rem, 6vw, 4rem) 1.5rem;
+        }
+        .community-form {
+          display: flex;
+          gap: 0.75rem;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+        .community-input {
+          flex: 1 1 260px;
+          padding: 0.75rem 1rem;
+          border-radius: 8px;
+          border: 1px solid rgba(168, 85, 247, 0.4);
+          background-color: rgba(9, 8, 15, 0.6);
+          color: #FAFAF8;
+          font-size: 1rem;
+          outline: none;
+          min-height: 44px;
+        }
+        .community-submit {
+          background-color: #6B21A8;
+          color: #FAFAF8;
+          padding: 0.75rem 1.5rem;
+          border-radius: 8px;
+          font-size: 1rem;
+          font-weight: 700;
+          border: none;
+          cursor: pointer;
+          transition: background-color 0.2s;
+          flex-shrink: 0;
+          min-height: 44px;
+          font-family: inherit;
+        }
+
+        /* Bear section */
+        .bear-section {
+          padding: clamp(2.5rem, 6vw, 4rem) 1.5rem;
+          background: radial-gradient(ellipse 70% 50% at 50% 50%, rgba(107, 33, 168, 0.1) 0%, transparent 80%);
+        }
+        .bear-grid {
+          display: grid;
+          grid-template-columns: 2fr 1fr;
+          grid-template-rows: auto auto;
+          gap: 1rem;
+          max-width: 1100px;
+          margin: 0 auto 1.75rem;
+        }
+        .bear-hero-img {
+          grid-row: 1 / 3;
+          grid-column: 1 / 2;
+          border-radius: 16px;
+          overflow: hidden;
+          position: relative;
+          aspect-ratio: 4 / 3;
+        }
+        .bear-secondary-img {
+          border-radius: 12px;
+          overflow: hidden;
+          position: relative;
+          aspect-ratio: 4 / 3;
+        }
+
+        @media (max-width: 768px) {
+          .stats-grid {
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+            text-align: center;
+          }
+          .topic-grid {
+            grid-template-columns: 1fr;
+          }
+          .blog-grid {
+            grid-template-columns: 1fr;
+          }
+          .shop-grid {
+            grid-template-columns: repeat(2, 1fr);
+          }
+          .hero-cta-group a {
+            width: 100%;
+            text-align: center;
+          }
+          .bear-grid {
+            grid-template-columns: 1fr;
+            grid-template-rows: auto auto auto;
+          }
+          .bear-hero-img {
+            grid-row: 1 / 2;
+            grid-column: 1 / 2;
+          }
+          .bear-secondary-img {
+            grid-column: 1 / 2;
+          }
+        }
+
+        @media (max-width: 480px) {
+          .shop-grid {
+            grid-template-columns: 1fr;
+          }
+          .cta-primary,
+          .cta-secondary {
+            width: 100%;
+            text-align: center;
+          }
+          .community-form {
+            flex-direction: column;
+          }
+          .community-input,
+          .community-submit {
+            width: 100%;
+          }
+        }
+      `}</style>
+
       {/* Hero */}
       <section style={heroStyle} aria-labelledby="hero-heading">
         <div style={containerStyle}>
@@ -359,11 +412,11 @@ export default function HomePage() {
             Built for autistic adults. Written with the community. No inspiration porn.
             No cure narratives. Just real information, real community, and real acceptance.
           </p>
-          <div style={heroCTAGroupStyle}>
-            <a href="/resources" style={primaryCTAStyle}>
+          <div className="hero-cta-group">
+            <a href="/resources" className="cta-primary">
               Explore Resources
             </a>
-            <a href="/community" style={secondaryCTAStyle}>
+            <a href="/community" className="cta-secondary">
               Join the Community
             </a>
           </div>
@@ -372,20 +425,20 @@ export default function HomePage() {
 
       {/* Stats bar */}
       <section style={statsSectionStyle} aria-label="Autism statistics">
-        <div style={statsGridStyle}>
-          <div style={statItemStyle}>
+        <div className="stats-grid">
+          <div style={{ textAlign: "center" }}>
             <p style={statNumberStyle}>1 in 36</p>
             <p style={statLabelStyle}>Americans are autistic</p>
             <p style={statNoteStyle}>Source: CDC MMWR 2023</p>
           </div>
-          <div style={statItemStyle}>
+          <div style={{ textAlign: "center" }}>
             <p style={statNumberStyle}>80%</p>
             <p style={statLabelStyle}>of autistic adults are under- or un-employed</p>
             <p style={statNoteStyle}>
-              Not because of autism -- because of inaccessible workplaces
+              Not because of autism — because of inaccessible workplaces
             </p>
           </div>
-          <div style={statItemStyle}>
+          <div style={{ textAlign: "center" }}>
             <p style={statNumberStyle}>72+</p>
             <p style={statLabelStyle}>Average age of autism diagnosis for women</p>
             <p style={statNoteStyle}>Years of masking. Years of not knowing.</p>
@@ -394,7 +447,7 @@ export default function HomePage() {
       </section>
 
       {/* Topic Hub */}
-      <section style={sectionStyle} aria-labelledby="topics-heading">
+      <section className="section-pad" aria-labelledby="topics-heading">
         <div style={containerStyle}>
           <h2 style={sectionHeadingStyle} id="topics-heading">
             Find what you need
@@ -402,10 +455,10 @@ export default function HomePage() {
           <p style={sectionSubStyle}>
             Every topic, built for autistic adults. Written by people who actually get it.
           </p>
-          <div style={topicGridStyle}>
+          <div className="topic-grid">
             {topics.map((t) => (
               <a key={t.href} href={t.href} style={topicCardStyle}>
-                <div style={{ width: 12, height: 12, borderRadius: '50%', background: '#A855F7', marginBottom: '0.75rem' }} />
+                <div style={{ width: 12, height: 12, borderRadius: "50%", background: "#A855F7", marginBottom: "0.75rem" }} />
                 <p style={topicTitleStyle}>{t.title}</p>
                 <p style={topicDescStyle}>{t.desc}</p>
               </a>
@@ -414,19 +467,76 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Bear Photo Section */}
+      <section className="bear-section" aria-labelledby="bear-section-heading">
+        <div style={containerStyle}>
+          <div style={{ textAlign: "center", marginBottom: "2rem" }}>
+            <h2 style={sectionHeadingStyle} id="bear-section-heading">
+              A Family That Sticks Together
+            </h2>
+          </div>
+          <div className="bear-grid">
+            {/* Hero bear photo — spans 2 rows on desktop */}
+            <div className="bear-hero-img">
+              <Image
+                src="/bears/bears-together.jpg"
+                alt="Bears together as a family"
+                fill
+                sizes="(max-width: 768px) 100vw, 66vw"
+                style={{ objectFit: "cover" }}
+                priority
+              />
+            </div>
+            {/* Secondary photos */}
+            <div className="bear-secondary-img">
+              <Image
+                src="/bears/bear-tree.jpg"
+                alt="Bear in a tree"
+                fill
+                sizes="(max-width: 768px) 100vw, 33vw"
+                style={{ objectFit: "cover" }}
+                loading="lazy"
+              />
+            </div>
+            <div className="bear-secondary-img">
+              <Image
+                src="/bears/bear-forest.jpg"
+                alt="Bear in a forest"
+                fill
+                sizes="(max-width: 768px) 100vw, 33vw"
+                style={{ objectFit: "cover" }}
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <p
+            style={{
+              textAlign: "center",
+              fontSize: "0.9375rem",
+              color: "rgba(250, 250, 248, 0.45)",
+              fontStyle: "italic",
+              marginBottom: 0,
+            }}
+          >
+            Built by parents. For families. For every child.
+          </p>
+        </div>
+      </section>
+
       {/* Featured blog posts */}
       <section
-        style={{ ...sectionStyle, paddingTop: 0, backgroundColor: "rgba(107,33,168,0.04)" }}
+        style={{ paddingTop: 0, backgroundColor: "rgba(107,33,168,0.04)" }}
+        className="section-pad"
         aria-labelledby="blog-heading"
       >
         <div style={containerStyle}>
-          <h2 style={{ ...sectionHeadingStyle, paddingTop: "3rem" }} id="blog-heading">
+          <h2 style={{ ...sectionHeadingStyle, paddingTop: "1rem" }} id="blog-heading">
             From the blog
           </h2>
           <p style={sectionSubStyle}>
             Real writing about real autistic adult life. No platitudes.
           </p>
-          <div style={blogGridStyle}>
+          <div className="blog-grid">
             {featuredPosts.map((post) => (
               <a key={post.slug} href={`/blog/${post.slug}`} style={blogCardStyle}>
                 <p style={blogCategoryStyle}>{post.category}</p>
@@ -453,8 +563,8 @@ export default function HomePage() {
 
       {/* Shop for Acceptance callout */}
       <section
+        className="section-pad"
         style={{
-          padding: "4rem 1.5rem",
           background: "radial-gradient(ellipse 70% 50% at 50% 50%, rgba(107, 33, 168, 0.15) 0%, transparent 75%)",
         }}
         aria-labelledby="shop-callout-heading"
@@ -468,14 +578,7 @@ export default function HomePage() {
               Adult autism acceptance merch from WeBearish. 100% of profits reinvested into this community.
             </p>
           </div>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))",
-              gap: "1.25rem",
-              marginBottom: "2.5rem",
-            }}
-          >
+          <div className="shop-grid">
             {[
               { name: "Acceptance Over Awareness", price: "$34.99", color: "#6B21A8" },
               { name: "Different Not Less", price: "$59.99", color: "#4C1D95" },
@@ -530,20 +633,7 @@ export default function HomePage() {
             ))}
           </div>
           <div style={{ textAlign: "center" }}>
-            <a
-              href="/shop"
-              style={{
-                backgroundColor: "#6B21A8",
-                color: "#FAFAF8",
-                padding: "0.875rem 2rem",
-                borderRadius: "8px",
-                fontSize: "1rem",
-                fontWeight: 700,
-                textDecoration: "none",
-                display: "inline-block",
-                border: "2px solid #6B21A8",
-              }}
-            >
+            <a href="/shop" className="cta-primary">
               Visit the Shop
             </a>
           </div>
@@ -552,12 +642,12 @@ export default function HomePage() {
 
       {/* Community section */}
       <section style={communitySectionStyle} aria-labelledby="community-heading">
-        <div style={communityInnerStyle}>
+        <div style={{ maxWidth: "640px", margin: "0 auto" }}>
           <h2 style={communityHeadingStyle} id="community-heading">
             A community built for us
           </h2>
           <p style={communityTextStyle}>
-            The autismacceptance.world community is coming. A space for autistic adults --
+            The autismacceptance.world community is coming. A space for autistic adults —
             no parents speaking over us, no professionals "translating" our experience.
             Join the waitlist.
           </p>
@@ -577,7 +667,7 @@ export default function HomePage() {
             </p>
           ) : (
             <form
-              style={formStyle}
+              className="community-form"
               onSubmit={handleSubmit}
               action="https://formspree.io/f/aaw-community"
               method="POST"
@@ -586,13 +676,13 @@ export default function HomePage() {
                 type="email"
                 name="email"
                 placeholder="your@email.com"
-                style={inputStyle}
+                className="community-input"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
                 aria-label="Email address for community waitlist"
               />
-              <button type="submit" style={submitButtonStyle}>
+              <button type="submit" className="community-submit">
                 Join Waitlist
               </button>
             </form>
@@ -602,7 +692,7 @@ export default function HomePage() {
 
       {/* Disclaimer */}
       <div style={disclaimerStyle} role="note" aria-label="Disclaimer">
-        <p style={disclaimerTextStyle}>
+        <p style={{ fontSize: "0.875rem", color: "rgba(250, 250, 248, 0.55)", lineHeight: 1.6, marginBottom: 0 }}>
           <strong style={{ color: "rgba(250,250,248,0.75)" }}>Disclaimer:</strong> Not a
           medical site. Not a diagnostic tool. Nothing here is intended as medical advice.
           For diagnosis, see a qualified professional. For community, you are already in the
