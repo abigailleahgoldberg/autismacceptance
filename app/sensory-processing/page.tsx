@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Sensory Processing as an Autistic Adult",
     description:
       "The 8 senses explained, hyper and hypo sensitivity, sensory diet for adults, workplace survival, and building a sensory-safe home.",
-    image: "https://autismacceptance.world/bears/bears-together.jpg",
+    images: ["https://autismacceptance.world/bears/bears-together.jpg"],
     url: "https://autismacceptance.world/sensory-processing",
     type: "article",
   },

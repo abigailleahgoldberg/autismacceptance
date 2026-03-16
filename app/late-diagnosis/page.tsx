@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Late Diagnosis: Now What?",
     description:
       "Getting an autism diagnosis as an adult brings grief, relief, anger, and clarity all at once. Here's what it means, what it doesn't change, and your practical next steps.",
-    image: "https://autismacceptance.world/bears/bears-together.jpg",
+    images: ["https://autismacceptance.world/bears/bears-together.jpg"],
     url: "https://autismacceptance.world/late-diagnosis",
     type: "article",
   },

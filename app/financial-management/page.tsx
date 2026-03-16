@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Money Management for Autistic Adults",
     description:
       "Executive function and finances, autopay everything, impulse spending and special interests, building financial routines, and SSI/SSDI basics.",
-    image: "https://autismacceptance.world/bears/bears-together.jpg",
+    images: ["https://autismacceptance.world/bears/bears-together.jpg"],
     url: "https://autismacceptance.world/financial-management",
     type: "article",
   },

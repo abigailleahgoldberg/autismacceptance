@@ -1078,4 +1078,711 @@ The goal of unmasking is not to expose how broken you were while masked. It is t
 Actually more than enough. It is the version of you that has always been there, waiting for enough safety to show up.
     `.trim(),
   },
+  {
+    slug: "diagnosed-autistic-at-35",
+    title: "What Happens When You Get Diagnosed Autistic at 35",
+    category: "Late Diagnosis",
+    date: "2026-03-01",
+    description:
+      "A late autism diagnosis in adulthood does not break your life open. It recontextualizes it. Here is what that actually feels like, and what comes next.",
+    content: `
+You are 35. Or 42. Or 58. You have built a life -- jobs, relationships, apartments, maybe a family -- and then a psychiatrist or psychologist says the words. Autistic. You are autistic.
+
+The moment after that is strange. Not catastrophic, usually. Stranger than catastrophic. Like the floor under your entire history has quietly shifted two inches to the left, and everything is technically in the same place but nothing is quite level anymore.
+
+This guide is for the days and weeks after that moment. Not the years -- those take care of themselves eventually. The immediately after.
+
+## What Just Happened
+
+You did not become autistic when you got diagnosed. You were autistic before. You were autistic at 8 when you memorized the bus routes for fun and couldn't understand why other kids weren't also interested in bus routes. You were autistic at 19 when the dorm felt like an assault and you couldn't explain why you needed to leave parties exactly forty-five minutes after arriving. You were autistic at 28 when your manager's offhand comment sat in your head for three weeks playing on a loop.
+
+The diagnosis named what was already there. That is all it did. But naming changes things.
+
+## The Retroactive Edit
+
+Most late-diagnosed autistic adults describe a period of intense retrospective reprocessing. You go back through your history and you see it differently. The job you lost that seemed random -- there was a pattern there. The friendship that ended in ways you never fully understood -- you can see the communication gap now. The exhaustion you felt after every social event for your entire adult life that you chalked up to introversion -- it was something more specific than that.
+
+This retroactive edit can be disorienting. It can also be relief, because at 35 you have been carrying a lot of stories that ended with "and I don't know why I couldn't just function normally like everyone else." The diagnosis does not erase those stories. But it changes the ending.
+
+## The Grief Is Real
+
+Many late-diagnosed autistic adults experience grief after diagnosis. It is not universal -- some people feel mostly relief, or mostly curiosity, or mostly anger -- but grief is common enough that if you are feeling it, you should know: it is reasonable.
+
+The grief is for the years you navigated without a map. For the accommodations you needed and did not know to ask for. For the community you might have found earlier. For the version of yourself that might have existed if you had known. For the therapists who treated your anxiety without asking why the anxiety never fully resolved. For the jobs that ended in ways that felt like failure but were actually mismatch.
+
+Let it move through. Grief does not mean you are wrong about the diagnosis. It means you are a person with a history, and now you see that history more clearly.
+
+## What Does Not Change
+
+You. You do not change. Your interests, your values, your sense of humor, the things that make you good at what you do, the things you love, the people you love -- none of those change. The diagnosis is a description, not a prescription.
+
+You also do not have to do anything with the diagnosis immediately. Some newly diagnosed autistic adults go full research mode -- books, forums, YouTube, documentation. Others sit with it quietly for months before telling anyone. Both are fine. There is no correct pace.
+
+## The Paperwork Reality
+
+A formal diagnosis unlocks some practical things:
+
+Workplace accommodations under the ADA. You can request modifications to your work environment -- noise-canceling headphones, written instructions, remote work, flexible hours -- without disclosing your specific diagnosis. Your employer needs to know you have a disability and that accommodations are medically supported. They do not need to know the name of it.
+
+Documentation for educational accommodations if you are in or returning to school. Extended time on tests, reduced distraction environments, written versions of verbal instructions.
+
+Better mental health care. If you have been in therapy for anxiety, depression, or "I just don't feel right but I don't know what to call it," your diagnosis is relevant information. A therapist who knows you are autistic can work with your actual neurology instead of around it.
+
+## Finding Your People
+
+The autistic adult community is large, active, and genuinely welcoming of newly diagnosed adults. Reddit communities like r/AutisticAdults and r/autism are useful. Discord servers exist. The Autistic Self Advocacy Network and the Autistic Women and Nonbinary Network are organizations run by autistic adults for autistic adults.
+
+One thing to know going in: the autistic community uses identity-first language. "Autistic person" rather than "person with autism." This is not a rule imposed from outside -- it is the preference that autistic adults have consistently expressed in surveys. Using identity-first language signals that you have been paying attention.
+
+## The Part Nobody Tells You
+
+At 35, or 42, or 58, you have a lot of lived experience as an autistic person. You know things about navigating a world that was not built for you that recently diagnosed children do not know yet. You have survival strategies, coping mechanisms, and a map of your own tolerances built over decades.
+
+Some of those strategies are costly -- masking, suppression, performance. Part of what the diagnosis makes possible is recognizing which strategies are costing you more than they are worth and beginning to trade them for ones that actually fit.
+
+But the experience itself -- all those years of being autistic without knowing it -- is not wasted. You learned things. You built capacity in ways you may not fully recognize yet.
+
+You are not starting over. You are continuing, with better information.
+    `.trim(),
+  },
+  {
+    slug: "the-office-is-not-designed-for-you",
+    title: "The Office Is Not Designed for You",
+    category: "Workplace",
+    date: "2026-03-02",
+    description:
+      "Open-plan offices, fluorescent lighting, mandatory small talk, and back-to-back meetings. The modern workplace was built for neurotypical people. Here is how to survive it — and when to stop trying.",
+    content: `
+The modern open-plan office is one of the worst sensory environments ever created for autistic people. It is loud with overlapping conversations and keyboard clicks and someone's lunch and the HVAC and the phone calls three desks over. The lighting is fluorescent and it flickers at frequencies most people don't consciously notice but autistic nervous systems often do. There is no predictability to when someone will approach you. There are unwritten rules about when to make yourself available and when to signal that you are focused and the rules are never explicitly stated and change depending on which team you are on. You are expected to produce focused intellectual work in the middle of this.
+
+And then, when you struggle, the assumption is that something is wrong with you.
+
+## The History of the Open Office
+
+Open-plan offices became dominant in corporate architecture starting in the 1960s, initially as a philosophy about collaboration and democratic work. In the 1980s and 1990s, the cubicle was a partial acknowledgment that people needed visual and auditory separation to work. Then in the 2000s and 2010s, Silicon Valley style dropped the cubicle walls entirely and sold the surveillance as openness, the lack of privacy as collaboration, and the sensory chaos as energy.
+
+The research on open offices is damning. Studies consistently show that open offices reduce actual collaboration (people put in headphones to survive and communicate less spontaneously), increase sick days, decrease focus, and raise stress hormones. They are bad for most people.
+
+For autistic people, they are particularly bad. The sensory overload is real. The unpredictable social demands are real. The inability to get any sustained focus is real. You are not being dramatic. The research is on your side.
+
+## The ADA and Your Workspace
+
+You have legal rights here. Under the Americans with Disabilities Act, you can request a reasonable accommodation for your work environment. Common accommodations that autistic workers successfully request and receive include:
+
+A dedicated quieter workspace, even just a desk away from the main floor. Permission to use noise-canceling headphones while working. Remote work arrangements on some or all days. Modified schedules that allow you to work during quieter hours. Lighting modifications — turning off overhead fluorescents over your desk and using a lamp instead.
+
+You do not have to disclose that you are autistic to request these accommodations. You say: I have a medical condition that affects my ability to concentrate in noisy, high-stimulation environments. I am requesting the following accommodation. You provide documentation from a healthcare provider. HR processes it.
+
+Is this process sometimes difficult and bureaucratic? Yes. Is it worth attempting? Also yes. The legal framework exists for a reason.
+
+## Remote Work Changed the Calculation
+
+Before 2020, arguing for remote work accommodations was much harder. Post-2020, the argument that remote work is an unreasonable request from a 15-person company is significantly weaker. Many autistic adults found the pandemic, for all its horrors, gave them their first sustained experience of working in an environment that was actually compatible with their neurology. The reduction in burnout was immediate.
+
+If you can negotiate remote work — even partial remote work — it is worth doing. The commute, the open office, the mandatory small talk, the fluorescent lights: each of these is a sensory and social tax that accumulates over a workday and leaves you depleted. Remove what you can.
+
+## Small Talk Is Labor
+
+Nobody talks about this clearly enough: small talk is labor for autistic people. Not slightly awkward performance. Actual cognitive labor.
+
+Neurotypical people often experience small talk as automatic and low-cost, the social equivalent of breathing. For autistic people, small talk requires consciously generating socially appropriate content, monitoring tone, monitoring the other person's response, adjusting, maintaining eye contact at socially acceptable intervals, filling silence at appropriate moments, and managing the whole production without letting the effort show.
+
+That is a significant cognitive load per interaction. In an open office where you are expected to respond to incidental small talk throughout the day, from multiple people, while also trying to work, the accumulated load is exhausting.
+
+You are not antisocial. You are spending real cognitive resources on social management that other people are not spending. That cost is real.
+
+## When to Stop Trying
+
+There are workplaces that cannot be made accessible through accommodations. Open-plan offices with no flexibility, employers who refuse to engage in the accommodation process, cultures that require constant social performance as a condition of professional advancement. Some work environments are fundamentally incompatible with autistic neurology regardless of how much you accommodate and adapt.
+
+This is not a personal failure. It is information.
+
+The unemployment and underemployment rate for autistic adults is significantly higher than for non-autistic adults. This is not because autistic people are less capable. It is because most workplaces were designed without autistic people in mind and many have not adapted. Some workplaces are changing. Remote work, asynchronous communication, and explicit neurodiversity initiatives are making some environments more accessible.
+
+When an environment is genuinely incompatible — when you are burning out, when accommodations are refused, when the mismatch is structural rather than adjustable — it is worth considering what other options exist. Self-employment, remote roles, smaller organizations, fields with clearer performance metrics and less social performance demand. Not every autistic person has these options. But if you do, it is worth knowing that leaving an incompatible workplace is not giving up. It is accurate assessment of fit.
+
+## The Larger Point
+
+The office is not designed for you. That is a fact about the office, not a fact about you. You did not fail to adapt to something well-designed. You are struggling to function in something built for a different kind of nervous system.
+
+Knowing this does not fix the office. But it changes the story. The story changes from "I cannot handle normal work conditions" to "I am operating in work conditions that are genuinely hard for my neurology, and I deserve better."
+
+Demand better. Use the legal framework you have. Negotiate what you can. And when you cannot negotiate your way to something workable, take that information seriously.
+    `.trim(),
+  },
+  {
+    slug: "dating-while-autistic",
+    title: "Dating While Autistic: An Honest Guide",
+    category: "Relationships",
+    date: "2026-03-03",
+    description:
+      "Dating as an autistic adult is genuinely hard. It's also genuinely possible. Here is what actually helps, what makes it harder than it needs to be, and how to find connections that work for you.",
+    content: `
+Dating is hard for everyone. For autistic adults, it is hard in some specific additional ways that most dating advice does not address. This guide does.
+
+It is not going to tell you to make more eye contact or mirror body language or learn neurotypical social scripts. Those approaches treat autistic dating as a performance problem. Dating is not a performance. Or it should not be, and if it is, it will not lead anywhere worth going.
+
+## What Makes Dating Hard for Autistic Adults
+
+The neurotypical dating script involves a lot of unstated rules, implication, subtext, and performance. You are supposed to seem interested but not too interested. Available but not desperate. Confident but self-aware. The communication is layered with meanings that are not said directly and are assumed to be obvious.
+
+For autistic people, none of this is obvious. Literal communication is natural. Implication is a second language. Reading between lines takes active processing energy. And then there is the masking layer on top: trying to present as a neurotypical dater while internally doing translation work that most people never have to do.
+
+This is genuinely exhausting. And it is one of the reasons many autistic adults either avoid dating entirely or arrive at relationships that were built on a masked version of themselves that cannot be sustained.
+
+## Dating Apps and Autistic People
+
+Dating apps have been, in various ways, better for many autistic adults than in-person approaches. Not universally -- but the text-based format allows for processing time. You can think about what to write. You can be more explicit and less dependent on body language and real-time social performance.
+
+The apps also allow filtering by specific interests and values, which plays to a strength. Autistic people often have very clear ideas about what they are looking for. Being able to state that directly and search by it is useful.
+
+What is harder on apps: the casual, ambiguous nature of early communication. The gap between app conversation and first date. The unwritten expectations about timing and pacing. Apps also tend to favor frequent, light communication, which does not come naturally to everyone.
+
+One approach that works for many autistic adults: be specific in your profile about what you are looking for and about relevant aspects of who you are. This filters people in who are compatible and out who are not, which is more efficient than discovering incompatibility after several dates.
+
+## Disclosure
+
+When and whether to disclose that you are autistic to a potential partner is a personal decision. There is no universal right answer.
+
+Some autistic adults disclose early -- in their profile or on the first date -- because they prefer self-selection. People who cannot handle autism self-select out before attachment develops. This approach requires a certain amount of resilience for rejection but saves time.
+
+Others disclose when the relationship reaches a stage where it feels relevant -- when you need to explain a specific thing about how you communicate, or when sensory needs become relevant to shared activities, or when the relationship becomes serious enough that your actual self is fully in the picture.
+
+Early disclosure has one significant risk: some people do not know what autism actually means and will project their worst assumptions or associations onto you before they have experienced you as a person. This is less likely with partners who have some existing neurodivergence awareness.
+
+Whatever you decide, the person you end up with long-term needs to know. A relationship built on a masked version of you is not sustainable.
+
+## What to Actually Look For
+
+Autistic adults often find that the traits they need in a partner are different from what mainstream dating advice identifies.
+
+Explicit communication. A partner who says what they mean and means what they say. Not someone who hints and expects you to read between lines. Not someone who says "fine" when they are not fine. Direct, honest, literal communication is not a social deficiency -- it is a foundation for actual connection.
+
+Patience with processing time. Some autistic adults need more time to respond in conversation, to make decisions, or to shift from one activity to another. A partner who interprets this as disinterest or flakiness is not a match.
+
+Respect for sensory needs. Your sensory environment is real. A partner who dismisses sensory pain or treats your sensory needs as inconvenient quirks is showing you something important about how they will handle your needs over time.
+
+Genuine interest in your interests. Autistic people often have deep, specific interests. A partner who is curious about those interests -- not necessarily sharing them, but genuinely interested in why they matter to you -- is a good sign.
+
+Tolerance for solitude and recovery time. Many autistic adults need significant alone time after social engagement, including engagement with a partner. This is not rejection. A partner who can understand this as a nervous system need rather than a relationship problem makes long-term sustainability much more likely.
+
+## The Double Empathy Problem in Dating
+
+The double empathy problem -- autistic researcher Damian Milton's finding that communication difficulty between autistic and neurotypical people is mutual, not one-directional -- is directly relevant to dating. The assumption that communication failures in mixed relationships are always the autistic person's fault is wrong. Neurotypical people also misread autistic communication and also fail to adapt their communication styles.
+
+In practice, this means that relationship problems framed as "you do not communicate well" are worth examining more carefully. Are you communicating differently? Yes. Are you communicating badly? Not necessarily. The difference matters.
+
+## Relationships Between Autistic Adults
+
+Relationships between two autistic adults are increasingly common and are often described as significantly easier in certain key ways. Two people who both communicate directly, both need recovery time after social events, both understand sensory needs from the inside -- a lot of the common friction points of neurotypical-autistic relationships simply do not exist.
+
+This is not universal. Two autistic people can still have incompatible needs, communication styles, and sensory profiles. But the fundamental framing -- that one person's neurology is the problem to be accommodated -- is absent.
+
+If you have mostly dated neurotypical people and it has been consistently hard, it is worth considering whether your community includes autistic adults who might be more compatible.
+
+## The Bottom Line
+
+Dating while autistic is hard in specific, identifiable ways. Most of those ways are not personal failures -- they are predictable results of a dating culture designed for neurotypical communication styles. Knowing this changes the story.
+
+The goal is not to become better at performing neurotypical dating. The goal is to find someone who connects with who you actually are. That goal is possible. It takes longer for many autistic adults. It requires more filtering for fit. It may require communities and platforms that autistic adults are more likely to frequent.
+
+It is possible. You deserve a relationship that works for your actual neurology, not the neurotypical performance of you.
+    `.trim(),
+  },
+  {
+    slug: "autistic-burnout-is-not-depression",
+    title: "Why Autistic Burnout Is Not Depression",
+    category: "Mental Health",
+    date: "2026-03-04",
+    description:
+      "Autistic burnout gets misdiagnosed as depression constantly. They share some features. They are not the same thing. The treatment difference matters enormously.",
+    content: `
+Autistic burnout looks like depression. The outward features overlap: withdrawal, low motivation, inability to complete tasks that were previously manageable, flat affect, difficulty engaging with things that used to bring pleasure. Mental health providers who do not know about autistic burnout often diagnose depression and treat it accordingly.
+
+The treatments are different. Understanding the difference is not academic -- it is the difference between getting better and spending years in the wrong therapeutic lane.
+
+## What the Overlap Actually Is
+
+Both autistic burnout and depression involve:
+- Significant reduction in daily functioning
+- Loss of engagement with previously enjoyable activities
+- Social withdrawal
+- Exhaustion
+- Difficulty with motivation and task initiation
+
+These shared features are why the misdiagnosis is so common. A provider who does not know to look for autistic burnout specifically will see the symptom cluster and reach for the most common explanation.
+
+## What Is Different
+
+Depression is primarily a mood disorder. Its core features are persistent low mood and anhedonia -- the inability to experience pleasure. It has neurochemical components. It responds (imperfectly but meaningfully) to antidepressants and to forms of therapy like CBT and behavioral activation.
+
+Autistic burnout is primarily a depletion state. It does not begin with mood -- it begins with the nervous system running out of compensatory resources. The most distinctive feature of autistic burnout is skill regression: losing abilities that were previously available. An autistic person in burnout may lose the ability to speak, to manage daily tasks, to process new information, to tolerate previously manageable sensory input. This skill regression is not a feature of depression.
+
+Burnout also has identifiable external causes. It develops from sustained overload -- masking at high intensity, chronic sensory demands, major transitions without support. You can often trace the arc: this has been building since I started the new job, or since we moved, or since I had the child. Depression can develop without identifiable external causes (though it often has precipitants). Burnout requires a sustained overload context.
+
+## Why the Treatment Difference Matters
+
+Antidepressants address neurochemical components of depression. They do not address depleted compensatory capacity in an autistic nervous system. An autistic adult who is actually in burnout and is prescribed an antidepressant may feel somewhat better emotionally but will not recover the lost skills or the exhaustion because those were not caused by the neurochemistry that antidepressants target.
+
+CBT-based approaches, which are standard for depression, often increase demands on autistic clients -- the homework, the behavioral activation, the cognitive challenging -- precisely when demands need to be reduced. CBT delivered without adaptation to autistic burnout can actively worsen it.
+
+The treatment for autistic burnout is reduction of demands and genuine rest. Not more structure, not more effort, not more monitoring of thought patterns. Less. Give the nervous system space to recover.
+
+## What Good Treatment Looks Like
+
+If you are in autistic burnout, good treatment involves:
+
+A provider who knows what autistic burnout is and can distinguish it from depression. This alone is significant. Many autistic adults spend years in depression treatment for burnout because no provider asked the right questions.
+
+Demand reduction. Whatever can be put down, put it down. Sick leave if you have it. Reduced responsibilities if they can be reduced. Lower standards for things that are not critical.
+
+Sensory restoration. Time in sensory environments that are genuinely comfortable. Not productive environments. Not social environments. Quiet, predictable, low-demand.
+
+Reduced masking pressure. Burn your limited resources on masking only where you absolutely must -- where the stakes require it. Everywhere else, unmask.
+
+Addressing the root causes. Recovery from burnout without changing what caused it leads to another burnout. What conditions created the overload? What needs to change?
+
+## When Both Are Present
+
+Burnout and depression can co-occur. Long-term burnout can trigger depression as a secondary condition. An autistic adult who has been in burnout for years, isolated, without support, without the language to understand what is happening -- depression is a reasonable secondary outcome.
+
+In this case, both need to be treated. But the treatment order and emphasis matter. Treating depression symptoms without addressing the underlying burnout will not work. The burnout is the soil the depression is growing in.
+
+## Advocating for Yourself
+
+If you suspect you are in autistic burnout and have been treated for depression without meaningful improvement, this information is worth bringing to your provider. "Autistic burnout" is increasingly recognized in the clinical literature. Raymaker et al. (2020) published a peer-reviewed study defining autistic burnout based on autistic adults' own descriptions. The term has clinical legitimacy.
+
+You can say: "I want to explore whether what I am experiencing might be autistic burnout rather than, or in addition to, depression. I have read that autistic burnout involves skill regression and is caused by chronic overload. I think my history fits that pattern more than a primary mood disorder."
+
+A provider who dismisses this without engaging is not serving your care well. Bring information. Advocate for accurate diagnosis. The right treatment exists -- but only once the problem is correctly named.
+    `.trim(),
+  },
+  {
+    slug: "the-masking-tax",
+    title: "The Masking Tax: What It Costs to Pass as Neurotypical",
+    category: "Mental Health",
+    date: "2026-03-05",
+    description:
+      "Masking is effective. It helps autistic people pass, get jobs, keep relationships, and avoid a lot of friction. It also has a tax. Here is what that tax actually costs over a lifetime.",
+    content: `
+Masking works. That is the first thing to say clearly. The practice of suppressing autistic traits to appear neurotypical works. Masked autistic people get hired. They are perceived as socially capable. They pass. In a world that consistently penalizes visible autistic difference, masking is a rational survival adaptation.
+
+The tax is paid on the back end.
+
+## What Masking Actually Involves
+
+When autistic people mask, they are simultaneously:
+
+Suppressing natural behaviors -- stimming, literal communication, intense interest, eye contact avoidance, honest affect -- that would be visible if not managed.
+
+Performing replacement behaviors -- the socially expected eye contact, the small talk, the emotional expressions that communicate appropriately to neurotypical observers, the physical postures, the pacing and tone of conversation.
+
+Monitoring continuously -- watching the social environment for feedback on whether the performance is landing, adjusting in real time, running a constant background process that checks: too much? too little? too flat? too emotional? too intense?
+
+All three of these are running simultaneously, continuously, across every social interaction. Including the ones at work. Including the ones at the grocery store. Including the ones with friends who do not know you are autistic.
+
+That is a significant cognitive load. It is cognitively expensive the way that translating in real time from a second language is cognitively expensive -- not impossible, but you are using resources that other people are not spending on the same conversation.
+
+## The Compounding Cost
+
+The masking tax compounds over time in several ways.
+
+Daily cost: The cumulative drain of masking across a workday means that autistic people who mask at work often arrive home depleted in a way that their neurotypical colleagues are not. The social and sensory demands of the office were harder. The recovery need is larger.
+
+Weekly cost: Week after week of chronic cognitive overload without adequate recovery accumulates. Many autistic adults notice that their capacity to function degrades over the course of a working year in ways that do not fully reverse over weekends.
+
+Decade cost: Long-term high-intensity masking is one of the primary drivers of autistic burnout. The research is clear on this. Burnout can emerge after years of sustainable-seeming functioning followed by collapse. The account was being drawn down the whole time.
+
+## The Identity Cost
+
+There is a cost beyond exhaustion. When you have masked for decades, you may not know who you are underneath the performance.
+
+This is not metaphor. Autistic adults who unmask after long periods of intensive masking often describe genuine confusion about their own preferences, interests, needs, and desires. Which things do they actually enjoy, and which things do they perform enjoying because it was expected? What do they actually need from relationships, or were their needs always secondary to the social management of the relationship?
+
+This disorientation is one of the stranger and more disorienting parts of late diagnosis and unmasking. You spent so long performing a version of yourself that the authentic version is difficult to access.
+
+## The Relationship Cost
+
+Masking has a cost in relationships specifically. If your partner, close friends, and family know only the masked version of you, then they are in a relationship with a performance. The relationship is real. The feelings are real. But the person they know is incomplete.
+
+This creates a specific kind of loneliness. You are surrounded by people who care about you, and you feel unknown. Because you are, to some significant extent, unknown. You have not let them know you.
+
+This is not your fault. The mask was built for survival. But it is a cost.
+
+## The Health Cost
+
+The research on masking and health outcomes is not gentle. Autistic adults who mask at high levels have significantly higher rates of anxiety, depression, and suicidal ideation. They have higher rates of autistic burnout. They have higher rates of physical health problems associated with chronic stress.
+
+Masking is stressful. The chronic stress of maintaining a performance in every social context has physiological consequences. The immune system, the cardiovascular system, the endocrine system are all affected by chronic stress. Masking is not just tiring. It is bad for your body.
+
+## The Cost-Benefit Calculation
+
+None of this means masking was wrong. The costs of visible autistic difference in workplaces, schools, and social contexts are real. Lost jobs. Social exclusion. Institutional failure. Violence, in some cases. Masking emerged as a survival response to genuine threats. Telling people to just unmask without acknowledging that unmasking has real social costs is naive and potentially harmful.
+
+The question is not whether to mask. The question is which masking is genuinely necessary and which masking is automatic and costly without returning a proportionate benefit.
+
+Some masking is worth the cost. Some is not. Most autistic adults who do careful unmasking work find that they were masking in many contexts that did not require it -- that the social cost of dropping the mask in specific situations was smaller than the cognitive and physical cost of maintaining it.
+
+You do not have to disclose to your new acquaintance. You do not have to perform eye contact at the family dinner. You do not have to suppress your stim in your own house.
+
+## Beginning the Accounting
+
+Starting to see your own masking clearly is the first step toward making more intentional choices about it. Which behaviors are you performing that do not feel natural? Which of them would you drop if you felt safe enough? Which of them are you pretty sure you would not miss?
+
+You do not have to change everything. You do not have to unmask everywhere. But beginning to see the tax clearly -- the daily cost, the accumulated cost, the identity cost -- gives you the information to start making choices rather than running the automatic performance on default.
+
+The mask was useful. It is also expensive. You get to decide which expenses are worth paying.
+    `.trim(),
+  },
+  {
+    slug: "sensory-safe-home-on-a-budget",
+    title: "How to Build a Sensory-Safe Home on a Budget",
+    category: "Daily Living",
+    date: "2026-03-06",
+    description:
+      "Your home should be a place where your nervous system can actually rest. Here is how to make it one without spending a fortune.",
+    content: `
+Your home should be the place where your nervous system recovers. For most autistic adults, the outside world is a sustained sensory challenge -- fluorescent lights, ambient noise, unpredictable social demands, textures and smells outside your control. Home is the place where those demands drop.
+
+If your home is also sensory-challenging, you have nowhere to recover. That accelerates burnout and makes everything harder.
+
+This guide is practical and budget-conscious. Not every autistic adult has disposable income for a home overhaul. Most of the strategies here are low-cost or free.
+
+## Lighting: The Highest-Impact Change
+
+Lighting has an outsized effect on autistic nervous systems. Fluorescent lighting in particular -- the flicker, the quality of light, the harshness -- is a documented sensory problem for many autistic people. If you have overhead fluorescent lighting in your home (common in apartments built in certain eras), it is worth addressing.
+
+The most affordable approach: buy a few inexpensive LED lamps and stop using the overhead lights. Warm-toned LED bulbs (2700K-3000K color temperature) create significantly more comfortable light than cool white or daylight LEDs. Lamp stands and plug-in sconces are available for $15-40 at most home goods stores.
+
+Dimmer capability is valuable if you have it or can easily add it. Being able to adjust light levels to match your state -- brighter when you are focused, lower when you are recovering -- is genuinely useful. Smart bulbs that you control from your phone are more expensive but give maximum control.
+
+If overhead fluorescent lights are in your rental and cannot be replaced, turning them off entirely and using your own lamps is usually fine with any reasonable landlord. You are not removing them, just not using them.
+
+## Sound: Your Biggest Recovery Lever
+
+Sound management at home is the difference between a recovery environment and an extension of the sensory demands of the outside world. Several approaches, roughly from least to most expensive:
+
+Rugs. Hard floors reflect sound. Rugs absorb it. A single large rug in your main living space meaningfully reduces ambient noise. Can be found secondhand for very little.
+
+Door draft stoppers. These seal the gap under your door, reducing sound transmission from other rooms or from neighbors. About $10-15.
+
+Heavy curtains. Fabric absorbs sound. Curtains that cover your windows (and ideally extend a bit beyond the window on each side) reduce both outside noise and light simultaneously. Secondhand curtain panels cost almost nothing.
+
+White noise machines. A consistent, predictable masking sound can reduce the perceptibility of unpredictable ambient noises. Standalone white noise machines run $25-50. Free apps on your phone do the same thing. Some autistic adults find brown noise, pink noise, or rain sounds more comfortable than white noise -- try a few.
+
+For music and media: the right to play your audio at the volume and with the frequency that actually regulates your nervous system is a sensory right. Your home should be the place where you do not have to negotiate this.
+
+## Textiles: Dressing Your Environment
+
+The right textures in your home environment are free if you already own them, cheap to swap if you do not.
+
+Bedding: This is where texture matters most and is most within your control. If your sheets feel wrong against your skin, you will not sleep well and your nervous system will not recover overnight. Soft 100% cotton or bamboo sheets are available at significant discount at stores like TJ Maxx, Ross, and Marshalls. Weighted blankets are more expensive ($40-80 for entry level) but have strong evidence for regulatory benefit for many autistic people.
+
+Seating: If your couch fabric is sensory-challenging, a blanket draped over the seating surface is a free fix. Pillow covers in soft fabrics you enjoy add comfort. Adding floor cushions or a floor seating option gives you more positions and sensory options.
+
+Clothing at home: One of the lowest-cost sensory improvements available is keeping comfortable clothing specifically for home. Removing shoes at the door. Changing out of work clothes immediately. Loose, soft, pressure-free fabric. This alone changes how much your nervous system can decompress after the outside world.
+
+## Creating Low-Demand Zones
+
+Every autistic adult benefits from having a physical space in their home that is specifically low-demand. This is not a luxury. It is a functional recovery requirement.
+
+This space does not have to be a whole room. It can be a corner, a specific chair, a space under a weighted blanket. The characteristics of a good low-demand zone: consistent, predictable sensory environment; low stimulation; not the place where you do work or have difficult conversations.
+
+If you share a home, having a clear agreement with the people you share with about what this space is for -- that it is your recovery space and that it is respected as such -- is worth the conversation.
+
+## Organization and Predictability
+
+Sensory safety includes cognitive predictability. Environments where things are in consistent places, where there is a clear system for what goes where, reduce the small but accumulating cognitive load of constantly scanning an environment to locate things and reassemble context.
+
+This does not mean you need to achieve some neurotypical ideal of tidiness. It means finding a level of organization that reduces the cognitive noise of your environment without requiring more maintenance than you can realistically sustain.
+
+One room at a time. One system at a time. The goal is reduced friction, not an Instagram-ready home.
+
+## What This All Adds Up To
+
+Your home does not need to be perfect. It needs to be better than the outside world. That is the bar. If you come home from work and your home continues to challenge your nervous system, you have no recovery space. The burnout accumulates.
+
+Every sensory improvement in your home environment directly reduces the rate at which you accumulate overload. This is not comfort for comfort's sake. It is maintenance of the system you need to function.
+
+Start with lighting. Start with whatever sensory friction in your home is most immediately painful. You do not have to fix everything at once. Make one change. Notice whether it helps. Build from there.
+
+Your nervous system deserves a place to rest.
+    `.trim(),
+  },
+  {
+    slug: "autistic-friendships",
+    title: "Autistic Friendships Are Different (And That's Beautiful)",
+    category: "Relationships",
+    date: "2026-03-07",
+    description:
+      "Autistic adults often struggle with neurotypical friendship norms. But autistic friendship on its own terms is something genuinely valuable — deep, specific, and honest.",
+    content: `
+The friendship advice that autistic adults grow up with is almost universally useless. It is designed for neurotypical friendship norms and it assumes that the goal is to maintain those norms better. Call people. Check in regularly. Remember birthdays. Initiate plans. Do the social maintenance work that keeps neurotypical friendships alive.
+
+This advice does not describe how autistic people actually form and maintain friendship. It also does not describe what is actually valuable about autistic friendship. Autistic friendships are different. Different is not worse. In some ways, different is considerably better.
+
+## Why Neurotypical Friendship Norms Are Hard for Autistic People
+
+Neurotypical friendship requires ongoing social maintenance: regular contact, reciprocal small talk, remembering personal details and asking about them, initiating plans on an appropriate schedule, the continuous low-level management of the relationship.
+
+For many autistic people, this maintenance is not automatic. Phone calls are cognitively expensive. Initiating contact requires overcoming executive function inertia. Remembering to check in requires prospective memory that may not be reliable. Tracking the status of multiple friendships simultaneously is a complex social management task.
+
+This does not mean autistic people do not care about their friends. It means the mechanism for expressing care in neurotypical friendship -- regular contact, check-ins, social maintenance -- is not the mechanism that comes naturally.
+
+What comes naturally to many autistic people: intense engagement when together. Genuine interest. Long, detailed conversations about subjects of shared interest. Honesty. Loyalty once the connection is established. Care that is felt deeply even when not expressed frequently.
+
+## Low Maintenance, High Depth
+
+The type of friendship that many autistic adults describe wanting and finding is sometimes called "low maintenance, high depth." You can go months without contact and pick up exactly where you left off. The friendship is not degraded by gaps in communication. When you are together, the connection is fully present and real. But the expectation of continuous maintenance does not exist.
+
+This friendship model is genuinely wonderful. The anxiety about whether your absence has cost you the friendship -- it is not there. The relationship is not transactional in the way that requires constant input to maintain output. You trust that the connection is real regardless of how recently you spoke.
+
+The problem is that most neurotypical friends do not operate this way. They interpret long gaps in contact as disinterest. They take the absence of check-ins as a sign the friendship is fading. The mismatch is painful on both sides and often ends friendships that were actually genuine.
+
+## Parallel Play Friendships
+
+Autistic adults often enjoy "parallel play" friendship -- being with another person while both engage in their own activities, without the expectation of continuous interaction. You are both reading, or both working on different projects, or sitting together while each pursues an interest. The shared presence is companionable without the demand for social performance.
+
+Many neurotypical adults find this arrangement strange or uncomfortable -- they interpret parallel activity as failed company. But for autistic people, parallel play provides genuine connection and companionship without the cognitive cost of sustained active interaction.
+
+If you have found friendships where parallel activity is comfortable and valued, those friendships are particularly compatible with autistic social needs.
+
+## The Honesty Difference
+
+Autistic communication tends toward honesty and directness. When something bothers you, you are more likely to say it. When something is good, you say that too. The social smoothing that neurotypical people apply -- softening criticism, deflecting compliments, masking disagreement -- is less automatic.
+
+In friendships built on autistic communication norms, this creates something genuinely valuable: you know where you stand. Your friend means what they say. If they say your presentation was great, they are not just being polite -- they mean it. If something you did bothered them, they will tell you rather than becoming gradually distant.
+
+This directness can cause friction with neurotypical friends who read it as bluntness or social awkwardness. In friendships between autistic adults, it is often one of the best things about the relationship.
+
+## Special Interests and Shared Depth
+
+Many autistic friendships form around shared interests. Not the casual shared-interest-as-social-lubricant of neurotypical socializing -- the "oh, you like that band too?" of small talk -- but the deep, sustained engagement of two people who care intensely about the same thing.
+
+These friendships are deeply nourishing in a way that surface social connections are not. Two people who both want to spend three hours talking about the thing they care about most, without social pressure to change the subject or moderate their enthusiasm, find in each other something that most social environments do not offer.
+
+If your social world does not currently include people who can match your depth on any subject, finding them -- in online communities built around specific interests, in clubs and groups organized by interest rather than social convenience -- is worth the effort.
+
+## Building Autistic Friendships as an Adult
+
+Making friends as an adult is hard for everyone. For autistic adults, it is hard in additional specific ways: the contexts where adult friendships form (work, neighborhood, children's schools) require social performance, and the maintenance norms are neurotypical.
+
+Some things that help:
+
+Interest-based communities. Find people through the thing you care about, not through generic socialization. The friendship comes from the shared engagement, not from performing friendship first.
+
+Online friendships. Autistic adult communities online are large and active. Online friendships are real friendships, and they have lower sensory and social performance demands than in-person ones.
+
+Neurodivergent social spaces. Local autism and neurodivergent meetup groups exist in many cities. Socializing with people who have similar communication styles and social needs removes a lot of friction.
+
+Honesty early. Telling a potential friend that you communicate directly, that you do not do well with ambiguity, that you may go quiet for weeks without it meaning anything about the friendship -- is information that helps compatible people recognize compatibility and incompatible people self-select out.
+
+## What Autistic Friendship Actually Is
+
+Autistic friendship is not failed neurotypical friendship. It is a different model. Less frequent contact, more genuine depth. Less performance, more honesty. Less maintenance anxiety, more trust that the connection is real.
+
+That model is worth having. It is worth building deliberately. It is worth choosing friends who can work within it rather than spending years trying to be a different kind of friend than you are.
+
+The friendships that survive on autistic terms -- honest, deep, low-maintenance, sustained by genuine connection rather than social maintenance -- are the ones worth keeping.
+    `.trim(),
+  },
+  {
+    slug: "autistic-parenting",
+    title: "Everything They Don't Tell You About Autistic Parenting",
+    category: "Daily Living",
+    date: "2026-03-08",
+    description:
+      "Autistic parents exist. We raise children. It looks different from neurotypical parenting, and that is not a problem. Here is the honest picture.",
+    content: `
+Nobody talks about autistic parenting enough. The conversation about autism and family usually centers on parents of autistic children -- neurotypical parents trying to understand a child whose neurology differs from their own. Less often does it center on autistic adults who are themselves parents. But autistic parents exist. We raise children. And the experience is specific and worth talking about honestly.
+
+## What Is Different About Autistic Parenting
+
+Autistic parenting has genuine strengths and genuine challenges. Neither list is complete without the other.
+
+The strengths include: intense interest in your children's actual inner lives. Willingness to take their stated experiences seriously rather than assuming neurotypical frameworks. Often, a natural affinity for your children's intense interests and a real capacity to engage with them deeply. Honesty that children often find grounding. The ability to explain systems and how they work clearly, which is useful if you have an autistic child trying to understand a neurotypical world.
+
+The challenges include: the sensory and social demands of parenting, which are constant and often impossible to anticipate or control. Executive function demands that are high and unstructured. The physical demands of small children -- unpredictable noise, touch, smell -- which hit autistic sensory systems hard. The social performance demands of school involvement, parent socializing, and navigating systems on behalf of your children.
+
+## The Sensory Reality
+
+Small children are sensory intense. They are loud, often unpredictably. They touch constantly. They have emotional states that generate significant auditory and physical input. They produce smells. They need food at unpredictable intervals. They need soothing that requires physical presence and touch.
+
+For autistic parents, this sensory profile of parenting is genuinely challenging. This is not a sign of inadequacy. It is a neurology fact. Managing the sensory demands of parenting as an autistic adult requires planning, recovery time, and support.
+
+Strategies that help: identifying the specific sensory demands that are hardest for you and building strategies for managing them. Having a safe sensory refuge even in a child-occupied home -- a closed door for ten minutes when you need to decompress. Being honest with your partner or co-parent about your sensory limits. Using noise-canceling headphones when safe to do so (many parents do this during non-critical household tasks).
+
+## Executive Function and the Logistics of Parenting
+
+Parenting is an executive function marathon. The scheduling, the school forms, the medical appointments, the meal planning, the routine maintenance, the remembering what was said to which teacher about which issue -- all of it requires exactly the executive function capacities that many autistic adults find hardest.
+
+External scaffolding helps here more than anywhere. Shared calendars. Written checklists. Automated reminders. A co-parent or support person who can share the executive load. Systems that reduce the number of decisions required per day. Routines that once established do not require active planning.
+
+The school communication piece is particularly heavy. Teachers, administrators, other parents, the social demands of school events. Many autistic parents find school communication disproportionately draining. Email over phone calls. Written summaries. Preparation before meetings. These are reasonable adaptations.
+
+## When You Have an Autistic Child
+
+Many autistic parents have autistic children. The recognition often goes both ways -- you may have first recognized that you might be autistic when your child was diagnosed. And having been an autistic child yourself gives you insight into your autistic child's experience that neurotypical parents do not have.
+
+This is genuinely valuable. You know what it feels like to be overwhelmed by sound. You know what school social demands feel like from inside. You can believe your child's sensory reports because they match your own internal experience. You are less likely to dismiss their stated needs as drama.
+
+It also means that parenting a child in sensory distress while you are also autistic is two sensory systems in crisis simultaneously. Having supports in place for yourself during your child's hard days is not selfish -- it is how you continue to parent through them.
+
+## Disclosure to Your Children
+
+At some point, the question of whether and how to tell your children that you are autistic arises. Most autistic parents who have done this describe it as positive. Children are often more accepting than adults. Having language for why their parent does certain things -- why the noise at the birthday party is hard, why dad needs quiet time after work, why there are specific rules about textures in the house -- often reduces rather than increases children's anxiety.
+
+Children also notice that something is different before you tell them. Having accurate language is better than a vacuum of explanation.
+
+How to tell them depends heavily on their age and your relationship. Generally: matter-of-fact, specific, positive framing. "My brain works a little differently. It makes certain things harder, like loud places. That's why we have quiet time. I'm autistic, and that's just part of who I am."
+
+## The Permission You Need to Give Yourself
+
+Autistic parents are real parents. We are not less capable of loving our children, being present for them, raising them well. The challenges are real and worth taking seriously. The strengths are also real and worth recognizing.
+
+You do not have to parent the way neurotypical parenting guides describe. The constant social engagement, the effortless patience for noise and chaos, the seamless management of unpredictability -- these are neurotypical parent norms, not universal ones. Adapting them to your neurology is not failure. It is accuracy.
+
+Rest when you need to. Ask for help. Build systems that reduce executive load. Create sensory refuge in your own home. Tell your children the truth about who you are.
+
+You are enough for your children. Your neurology does not disqualify you from being a good parent. It shapes what good parenting looks like for you.
+    `.trim(),
+  },
+  {
+    slug: "the-problem-with-functioning-labels",
+    title: "The Problem With Functioning Labels",
+    category: "Community",
+    date: "2026-03-09",
+    description:
+      "High-functioning. Low-functioning. These labels are used constantly to describe autistic people. They are also meaningless, harmful, and worth rejecting entirely.",
+    content: `
+"High-functioning autistic" and "low-functioning autistic" are terms you will encounter constantly in autism discourse. They appear in medical records, in parent blogs, in news coverage, in the mouths of educators and therapists and well-meaning relatives. They are used as if they mean something specific and useful.
+
+They do not. They are vague, they are harmful, and most autistic adults and advocates reject them. This is why.
+
+## What Functioning Labels Claim to Do
+
+The logic of functioning labels is simple: autism presents across a wide range of presentations, and having a way to describe where someone falls on that range is useful. "High-functioning" signals that someone needs less support. "Low-functioning" signals that someone needs more. Simple, right?
+
+The problem is that this is not what the labels actually do.
+
+## What Functioning Labels Actually Describe
+
+Functioning labels describe how much an autistic person's presentation inconveniences or concerns neurotypical observers. They are not a measure of the autistic person's internal experience, their quality of life, their intelligence, or their actual support needs.
+
+"High-functioning" autistic people often have severe internal experiences that are invisible to outside observers. The autistic adult who masks well, holds a job, maintains relationships -- and comes home every night in complete nervous system collapse, who is in chronic pain from sensory overload, who has never told anyone how exhausting every single day is -- will be called "high-functioning" by clinicians, employers, and family. The functioning label says something about the performance. It says nothing about the suffering.
+
+"Low-functioning" autistic people are often described as having limited intellectual capacity or understanding when the actual picture is much more complex. Nonspeaking autistic people, for instance, are frequently assumed to have limited comprehension because they cannot or do not speak. This assumption is wrong often enough to be treated as a default error. A nonspeaking autistic person who communicates through AAC (augmentative and alternative communication) or writing may have sophisticated, original, clearly expressed inner life that the "low-functioning" label erases entirely.
+
+## The Harm the Labels Do
+
+For "high-functioning" autistic people: the label is used to deny support. You are told you are too high-functioning for services. Too high-functioning to need accommodations. Too high-functioning for your stated struggles to be real. The label is a gate that closes. It tells you that because you can pass, your passing should be sufficient -- regardless of the cost.
+
+For "low-functioning" autistic people: the label predetermines expected outcomes in ways that harm. It shapes what educators believe is possible. It shapes what goals medical providers set. It shapes what families envision for the future. "Low-functioning" is a label that depresses expectation, limits investment in communication and autonomy-building, and frequently substitutes compliance training (do this, do not do that) for genuine support toward the person's own goals.
+
+## The Spectrum Is Not a Line
+
+A significant part of the problem with functioning labels is the linear model of autism they assume: a single line from "mild" to "severe," from "high" to "low," from "less autistic" to "more autistic."
+
+The actual picture is multidimensional. An autistic person might have exceptional verbal communication and profound executive function difficulties. Another might have significant sensory processing challenges and a world-class memory for patterns. Another might be nonspeaking with sophisticated written communication and serious chronic pain from sensory overload. No single axis captures any of these people accurately.
+
+The DSM-5 eliminated the Asperger's/Autistic Disorder distinction in 2013 specifically because the evidence showed these were not meaningfully distinct categories. The autism community understood long before the diagnostic manual caught up.
+
+## What to Say Instead
+
+Functional descriptions are more useful than functional labels. Instead of "high-functioning autistic," describe specific support needs and capacities: "communicates verbally, has significant executive function difficulties, and needs sensory accommodations at work." Instead of "low-functioning autistic," describe: "communicates primarily through AAC, needs support for daily living tasks, has significant sensory pain."
+
+Specific, accurate, descriptive language serves the person better. It makes actual support planning possible. It does not predetermine expectations or cut people off from services based on a two-word judgment of their worth.
+
+## The Political Dimension
+
+The functioning label debate is also political. "High-functioning" autistic people are often told that because they function well enough, they do not have a right to claim autistic identity or to speak on behalf of autistic community. Their experience is dismissed as too mild to be relevant to the conversation.
+
+"Low-functioning" autistic people are often treated as not capable of speaking for themselves at all -- their voices replaced by parent and professional voices speaking "for" them.
+
+Both of these dynamics serve systems that prefer autistic people either to pass silently or to be managed by others. Neither serves autistic people.
+
+The functioning label system separates autistic people who should be allies. It prevents the coalition-building that makes advocacy effective. It is not coincidence that the autistic people who most want to abolish functioning labels are those who have seen this dynamic play out from both sides.
+
+## The Bottom Line
+
+Functioning labels tell you how much an autistic person's presentation inconveniences observers. They do not tell you about the person's experience, their intelligence, their capacity for growth, their inner life, or what support they actually need.
+
+They should be retired. Not because autism is easy to describe without them, but because they describe the wrong thing and harm people in the process.
+
+If you find yourself reaching for functioning labels, ask instead: what support does this specific person need for this specific context? What are their actual capacities and challenges in the areas that matter to their life? That question leads somewhere useful. "High-functioning" does not.
+    `.trim(),
+  },
+  {
+    slug: "finding-autistic-community",
+    title: "Finding Your Autistic Community as an Adult",
+    category: "Community",
+    date: "2026-03-10",
+    description:
+      "Autistic community exists. It is large, active, and genuinely welcoming. Here is where to find it, how to enter it, and why it matters.",
+    content: `
+One of the most consistent things late-diagnosed autistic adults say is that finding the autistic community changed something fundamental. Not fixed them. Not solved their problems. Changed the quality of the experience of being who they are.
+
+The reason is simple and kind of profound: when you have spent your entire life experiencing yourself as somehow wrong, as the one person who does not get the rules everyone else seems to know, as too intense or too weird or too much -- and then you find a community of people who experienced the same things, in the same ways, for the same reasons -- the isolation lifts. Not the autism. The loneliness of the autism.
+
+That is worth finding.
+
+## Where Autistic Community Actually Lives
+
+Online spaces are the primary home of autistic adult community, and this is appropriate. Online communication removes several barriers that in-person socializing does not: the sensory demands, the real-time social performance requirements, the geographic limitations. Many autistic adults are significantly more comfortable in text-based asynchronous communication than in person.
+
+**Reddit**: r/AutisticAdults, r/autism, and r/aspergers are large, active communities. r/AutisticAdults specifically is oriented toward adults and has a particularly strong culture of peer support and shared experience. These communities have problems (as all large online communities do) but they also provide genuine connection and a real sense of being in a space where your experience is recognized.
+
+**Discord**: There are numerous autism and neurodivergent Discord servers. Some are organized by interest, some by identity (autistic women, late-diagnosed, autistic LGBTQ+, etc.), some by topic. Discord has the advantage of community building and voice channels for those who want them. Servers specifically for autistic adults include the Autism Support Server and neurodivergent-specific spaces associated with content creators and podcasts.
+
+**Mastodon and other decentralized social media**: The neurodivergent community has a significant presence on Mastodon, particularly under the hashtags #ActuallyAutistic, #AutisticAdult, and #Neurodivergent. The smaller scale and more intentional community culture of Mastodon makes it more comfortable for some autistic adults than Twitter or TikTok.
+
+**Twitter/X and TikTok**: Significant autistic content creator communities exist on both platforms. The #ActuallyAutistic hashtag on Twitter is a long-established space for autistic adults speaking for themselves. TikTok's autistic community (sometimes called AutisticTok) is large and particularly active around late diagnosis content. These platforms have their problems, but they are where a lot of autistic adults are.
+
+## In-Person Autistic Community
+
+In-person community is harder to find than online, but it exists.
+
+**Local autistic adult meetup groups**: Meetup.com and Facebook Groups both list local autism and neurodivergent meetup groups in many cities. These vary enormously in quality and culture. Autistic-led groups (organized by and for autistic adults, not by professionals or parents) tend to be more affirming.
+
+**Autistic Self Advocacy Network (ASAN) chapters**: ASAN has local chapters in various cities. These chapters organize advocacy and community events. Finding and attending your local chapter is a way to connect with autistic adults who are engaged in the community.
+
+**Autistic Women and Nonbinary Network (AWN)**: AWN runs events and maintains a directory of local groups specifically for autistic women and nonbinary autistic people. If you identify in those communities, AWN is worth knowing about.
+
+**Interest-based groups with neurodivergent-friendly cultures**: Many autistic adults find community through interest groups where neurodivergent people are disproportionately represented: tabletop gaming groups, science fiction and fantasy communities, maker spaces, coding groups, certain music communities. These are not explicitly autistic spaces, but the social culture is often more compatible with autistic communication styles.
+
+## What to Expect When You Arrive
+
+If you are newly diagnosed or newly exploring autistic community, a few things to know:
+
+Identity-first language is the norm. Autistic community uses "autistic person" rather than "person with autism." This is not a rule you will be penalized for breaking, but it is the community standard and it is worth understanding why (see our glossary entry on identity-first language).
+
+Neurodiversity-affirming framing is the norm. Autism is framed as difference, not defect. Cure narratives, ABA-based approaches, and organizations like Autism Speaks are viewed critically by most autistic adults. This is the consensus of autistic self-advocacy.
+
+Accommodations are the norm. In well-run autistic community spaces, content warnings, trigger warnings, and other accessibility considerations are common. Explicit communication is valued. Social performance demands are lower.
+
+You do not have to have a formal diagnosis. Self-diagnosis is widely accepted in autistic community spaces. Many autistic adults cannot access or afford formal evaluation. Self-knowledge is recognized as valid.
+
+## Parent Spaces Are Not Autistic Spaces
+
+One important navigation note: online autism spaces that center parents of autistic children are not the same as autistic adult spaces. They address different concerns, use different language, and often have perspectives that autistic adults find alienating or actively harmful.
+
+Autism Speaks forums, parent-centered Facebook groups, and spaces organized primarily around "helping" autistic children often do not center the experiences and perspectives of autistic adults. They are sometimes actively hostile to autistic advocacy that conflicts with parental priorities.
+
+Find spaces where autistic adults are the primary voice. They are not hard to find once you know they exist.
+
+## What Community Does
+
+Autistic community does not fix the practical challenges of being autistic in a neurotypical world. It does not change your workplace, your sensory profile, or the gaps in mental health care.
+
+What it does: gives you language. A community develops shared language for shared experience, and that language is valuable. "Masking." "Autistic burnout." "Double empathy problem." "Monotropism." These terms exist because autistic people named their experiences and those names spread through community.
+
+It gives you recognition. The loneliness of being the only person who experiences the world the way you do is substantial. Community removes it.
+
+It gives you information. What works for other autistic adults. What does not. Which therapists are affirming and which are not, in your city. Which workplaces have better accommodation cultures. Which books to read. What questions to ask.
+
+And it gives you allies. People who will take your experience seriously, advocate alongside you, and remind you when the world's framing of you as broken is wrong.
+
+You are not the only one. There are a lot of us. Come find your people.
+    `.trim(),
+  },
 ];

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Living Independently as an Autistic Adult",
     description:
       "Practical skills nobody taught you, routines as lifelines, managing household tasks with executive function challenges, and support services.",
-    image: "https://autismacceptance.world/bears/bears-together.jpg",
+    images: ["https://autismacceptance.world/bears/bears-together.jpg"],
     url: "https://autismacceptance.world/independent-living",
     type: "article",
   },

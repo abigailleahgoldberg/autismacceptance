@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Friendships as an Autistic Adult",
     description:
       "Why maintaining friendships is exhausting, quality over quantity, parallel play friendships, and how to find your people.",
-    image: "https://autismacceptance.world/bears/bears-together.jpg",
+    images: ["https://autismacceptance.world/bears/bears-together.jpg"],
     url: "https://autismacceptance.world/friendships",
     type: "article",
   },

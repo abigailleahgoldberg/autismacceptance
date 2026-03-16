@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Executive Function: The Operating System Nobody Taught You",
     description:
       "What executive function is, autistic inertia, task initiation challenges, and the strategies and tools that actually help.",
-    image: "https://autismacceptance.world/bears/bears-together.jpg",
+    images: ["https://autismacceptance.world/bears/bears-together.jpg"],
     url: "https://autismacceptance.world/executive-function",
     type: "article",
   },

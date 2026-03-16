@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Relationships & Dating While Autistic",
     description:
       "Double empathy in romantic relationships, communication style differences, sensory considerations in intimacy, and autistic-autistic relationships.",
-    image: "https://autismacceptance.world/bears/bears-together.jpg",
+    images: ["https://autismacceptance.world/bears/bears-together.jpg"],
     url: "https://autismacceptance.world/relationships-and-dating",
     type: "article",
   },

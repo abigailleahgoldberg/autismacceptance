@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Autism in Men: Beyond the Stereotype",
     description:
       "Breaking the 'awkward tech guy' stereotype. Emotional depth, relationships, masculinity, and burnout patterns in autistic men.",
-    image: "https://autismacceptance.world/bears/bears-together.jpg",
+    images: ["https://autismacceptance.world/bears/bears-together.jpg"],
     url: "https://autismacceptance.world/autism-in-men",
     type: "article",
   },

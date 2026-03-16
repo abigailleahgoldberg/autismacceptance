@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Autism in Women & Gender-Diverse People",
     description:
       "Why women and nonbinary people are massively underdiagnosed, the masking tax, and how diagnostic criteria built around boys failed an entire generation of autistic people.",
-    image: "https://autismacceptance.world/bears/bears-together.jpg",
+    images: ["https://autismacceptance.world/bears/bears-together.jpg"],
     url: "https://autismacceptance.world/autism-in-women",
     type: "article",
   },

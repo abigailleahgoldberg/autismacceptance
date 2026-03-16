@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Disclosure: When and How to Tell People You're Autistic",
     description:
       "The decision framework for autism disclosure. Workplace, family, dating, and friend scripts. When NOT to disclose.",
-    image: "https://autismacceptance.world/bears/bears-together.jpg",
+    images: ["https://autismacceptance.world/bears/bears-together.jpg"],
     url: "https://autismacceptance.world/disclosure",
     type: "article",
   },

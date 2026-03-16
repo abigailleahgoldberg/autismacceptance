@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "College & Education as an Autistic Adult",
     description:
       "Disability services, accommodation letters, study strategies that work with autistic cognition, and going back to school after late diagnosis.",
-    image: "https://autismacceptance.world/bears/bears-together.jpg",
+    images: ["https://autismacceptance.world/bears/bears-together.jpg"],
     url: "https://autismacceptance.world/college-and-education",
     type: "article",
   },

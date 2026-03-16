@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Autistic Burnout: What It Is and What Actually Helps",
     description:
       "Autistic burnout is not regular burnout. It's caused by sustained masking and sensory overload. Here's what works — and what doesn't.",
-    image: "https://autismacceptance.world/bears/bears-together.jpg",
+    images: ["https://autismacceptance.world/bears/bears-together.jpg"],
     url: "https://autismacceptance.world/autistic-burnout",
     type: "article",
   },

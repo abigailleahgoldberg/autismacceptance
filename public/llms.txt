@@ -45,5 +45,48 @@ Autism Acceptance is an advocacy resource for the autism community. We use ident
 - /college-and-education — College & Education as an Autistic Adult. Disability services, accommodation letters, lecture halls, study strategies for autistic cognition, returning to school.
 - /disclosure — Disclosure: When and How to Tell People You're Autistic. Decision framework, workplace/family/dating/friend disclosure scripts, when NOT to disclose.
 
+## Mental Health (Section)
+- /anxiety-and-autism — Anxiety and Autism. Why anxiety is so prevalent in autistic adults, the autistic anxiety cycle, what actually helps vs. what makes it worse.
+- /depression-and-autism — Depression and Autism. Distinguishing depression from burnout, why autistic people are more vulnerable, what effective treatment looks like.
+- /ptsd-and-trauma — PTSD and Trauma in Autistic Adults. Autistic trauma accumulation, medical trauma, the PTSD-autism overlap, trauma-informed care.
+- /finding-affirming-therapy — Finding Affirming Therapy. What to look for, what to avoid, questions to ask, therapist red/green flags.
+- /medication — Medication and Autism. What evidence says about psychiatric medication for autistic adults, co-occurring conditions, medication decisions.
+- /crisis-resources — Crisis Resources for Autistic Adults. 988 Lifeline, Crisis Text Line (741741), autistic-specific crisis support, safety planning, what to tell a counselor about being autistic.
+
+## Resources (Section)
+- /books — Books by Autistic Authors. 15 essential books including Devon Price "Unmasking Autism", Nick Walker "Neuroqueer Heresies", Steve Silberman "NeuroTribes", Cynthia Kim, Sarah Hendrickx, and more.
+- /podcasts — Autistic Podcasts Worth Your Time. 10 autistic-hosted podcasts including 1800 Seconds on Autism, The Autistic Culture Podcast, Neurodivergent Rebel, and more.
+- /therapist-directory — Finding an Autistic-Affirming Therapist. Neurodivergent Therapist Directory, Psychology Today filters, questions to ask, red flags and green flags.
+- /legal-rights — Legal Rights for Autistic Adults. ADA workplace accommodations, Fair Housing Act, Section 504 educational plans, how to request with scripts.
+- /glossary — Autism Glossary: 30+ Terms Explained. Neurodiversity, masking, stimming, monotropism, PDA, alexithymia, interoception, spoon theory, autistic burnout, double empathy problem, echolalia, executive function, hyperfocus, meltdown, shutdown, sensory overload, special interest, and more.
+- /blog — Blog. Long-form guides and personal perspectives on autistic adult life.
+- /shop — Shop. Identity-first autism acceptance merchandise. No puzzle pieces.
+
+## Blog Posts
+- /blog/late-diagnosis-adult-autism-guide — Late Autism Diagnosis: What to Do When You Finally Find Out
+- /blog/masking-what-it-costs — Masking: What It Is and What It Costs Autistic Adults
+- /blog/autistic-burnout-recovery-guide — Autistic Burnout: The Exhaustion That Is Not Just Tiredness
+- /blog/workplace-accommodations-autistic-adults — Workplace Accommodations for Autistic Adults: What You Are Entitled To
+- /blog/autistic-women-late-diagnosis — Why So Many Autistic Women Are Diagnosed Late -- And What That Costs
+- /blog/autism-and-relationships-guide — Autism and Relationships: Love, Communication, and Connection on Your Own Terms
+- /blog/sensory-processing-adult-guide — Sensory Processing for Adults: Tools, Strategies, and Permission to Need What You Need
+- /blog/identity-first-language-why-it-matters — Identity-First Language: Why Most Autistic Adults Prefer It
+- /blog/autism-and-executive-function — Executive Function and Autism: Why It Is Hard and What Actually Helps
+- /blog/late-diagnosis-autism-adults — Getting an Autism Diagnosis as an Adult: What the Process Actually Looks Like
+- /blog/autism-and-employment-rights — Workplace Rights for Autistic Adults: ADA Accommodations, What Employers Must Provide
+- /blog/sensory-processing-adult-life — Sensory Differences in Adult Life: What They Are and What Actually Helps
+- /blog/autistic-burnout-recovery — Autistic Burnout: What It Is, Why It Happens, and How to Actually Recover
+- /blog/unmasking-guide-for-adults — How to Unmask: A Practical Guide for Autistic Adults Ready to Stop Performing
+- /blog/diagnosed-autistic-at-35 — What Happens When You Get Diagnosed Autistic at 35
+- /blog/the-office-is-not-designed-for-you — The Office Is Not Designed for You
+- /blog/dating-while-autistic — Dating While Autistic: An Honest Guide
+- /blog/autistic-burnout-is-not-depression — Why Autistic Burnout Is Not Depression
+- /blog/the-masking-tax — The Masking Tax: What It Costs to Pass as Neurotypical
+- /blog/sensory-safe-home-on-a-budget — How to Build a Sensory-Safe Home on a Budget
+- /blog/autistic-friendships — Autistic Friendships Are Different (And That's Beautiful)
+- /blog/autistic-parenting — Everything They Don't Tell You About Autistic Parenting
+- /blog/the-problem-with-functioning-labels — The Problem With Functioning Labels
+- /blog/finding-autistic-community — Finding Your Autistic Community as an Adult
+
 ## Affiliations
 Part of the Wu-Tang AI Clan network of sites: webearish.com, thevoiceofcash.com, jewsa.com, u-god.com, aiskillsagents.com, allahican.com, redwhitejesus.com, autismacceptance.world, searchperformancemarketing.com, shadyscanner.com

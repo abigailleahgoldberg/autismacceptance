@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Masking & Unmasking",
     description:
       "What masking really is, its long-term cost, why unmasking is both terrifying and necessary, and how to start safely.",
-    image: "https://autismacceptance.world/bears/bears-together.jpg",
+    images: ["https://autismacceptance.world/bears/bears-together.jpg"],
     url: "https://autismacceptance.world/masking-and-unmasking",
     type: "article",
   },

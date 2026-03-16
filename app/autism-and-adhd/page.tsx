@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Autism & ADHD Together (AuDHD)",
     description:
       "AuDHD: the overlap, the contradictions, the chaos. Monotropism meets attention variability. Practical strategies that honor both.",
-    image: "https://autismacceptance.world/bears/bears-together.jpg",
+    images: ["https://autismacceptance.world/bears/bears-together.jpg"],
     url: "https://autismacceptance.world/autism-and-adhd",
     type: "article",
   },

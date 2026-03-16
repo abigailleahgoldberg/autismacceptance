@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     title: "Workplace & Career as an Autistic Adult",
     description:
       "Disclosure decisions, ADA accommodations, jobs that play to autistic strengths, surviving open offices, and remote work as accommodation.",
-    image: "https://autismacceptance.world/bears/bears-together.jpg",
+    images: ["https://autismacceptance.world/bears/bears-together.jpg"],
     url: "https://autismacceptance.world/workplace",
     type: "article",
   },
