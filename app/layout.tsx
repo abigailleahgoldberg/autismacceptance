@@ -586,6 +586,15 @@ export default function RootLayout({
                 <a href="https://awnnetwork.org" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(250,250,248,0.45)", fontSize: "0.8rem", textDecoration: "none" }}>Autistic Women & Nonbinary Network →</a>
                 <a href="https://www.cdc.gov/autism" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(250,250,248,0.45)", fontSize: "0.8rem", textDecoration: "none" }}>CDC Autism Data →</a>
               </div>
+              <div style={{ display: "flex", gap: "20px", flexWrap: "wrap", alignItems: "center", paddingTop: "12px", borderTop: "1px solid rgba(168,85,247,0.15)", marginTop: "12px" }}>
+                <span style={{ fontSize: "0.7rem", fontWeight: 700, color: "rgba(168,85,247,0.6)", letterSpacing: "0.12em", textTransform: "uppercase" as const }}>Legal</span>
+                <a href="/privacy" style={{ color: "rgba(250,250,248,0.45)", fontSize: "0.8rem", textDecoration: "none" }}>Privacy Policy</a>
+                <a href="/terms" style={{ color: "rgba(250,250,248,0.45)", fontSize: "0.8rem", textDecoration: "none" }}>Terms of Service</a>
+                <a href="/disclaimer" style={{ color: "rgba(250,250,248,0.45)", fontSize: "0.8rem", textDecoration: "none" }}>Medical Disclaimer</a>
+                <a href="/accessibility" style={{ color: "rgba(250,250,248,0.45)", fontSize: "0.8rem", textDecoration: "none" }}>Accessibility</a>
+                <a href="/dmca" style={{ color: "rgba(250,250,248,0.45)", fontSize: "0.8rem", textDecoration: "none" }}>DMCA</a>
+                <a href="/contact" style={{ color: "rgba(250,250,248,0.45)", fontSize: "0.8rem", textDecoration: "none" }}>Contact</a>
+              </div>
             </div>
           </div>
         </footer>
