@@ -167,6 +167,16 @@ export default function RootLayout({
           name="description"
           content="The world's greatest autism acceptance resource. Built for autistic adults. No cure narratives. No inspiration porn. Real information, real community, real acceptance."
         />
+        <meta property="og:title" content="Autism Acceptance World — The Adult Autism Resource" />
+        <meta property="og:description" content="Built for autistic adults. No cure narratives. No inspiration porn. Real information, real community, real acceptance." />
+        <meta property="og:image" content="https://autismacceptance.world/bears/bears-together.jpg" />
+        <meta property="og:url" content="https://autismacceptance.world" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Autism Acceptance World" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Autism Acceptance World — The Adult Autism Resource" />
+        <meta name="twitter:description" content="Built for autistic adults. No cure narratives. Real acceptance." />
+        <meta name="twitter:image" content="https://autismacceptance.world/bears/bears-together.jpg" />
       </head>
       <body>
         <nav style={navStyle} aria-label="Main navigation">
