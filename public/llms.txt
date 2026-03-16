@@ -26,5 +26,24 @@ Autism Acceptance is an advocacy resource for the autism community. We use ident
 - Employment and education for autistic adults
 - CDC data: 1 in 36 children identified as autistic (MMWR 2023)
 
+## Understanding Your Autism (Section)
+- /late-diagnosis — Late Diagnosis: Now What? Getting diagnosed as an adult — grief, relief, anger, clarity, and practical first steps.
+- /autism-in-women — Autism in Women & Gender-Diverse People. Why women and nonbinary people are massively underdiagnosed, the masking tax, and how diagnostic criteria built around boys failed a generation.
+- /autism-in-men — Autism in Men: Beyond the Stereotype. Breaking the "awkward tech guy" stereotype, emotional expression differences, masculinity, and burnout patterns.
+- /autism-and-adhd — Autism & ADHD Together (AuDHD). The overlap, the contradictions, monotropism meets attention variability, practical strategies that honor both.
+- /autistic-burnout — Autistic Burnout: What It Is and What Actually Helps. Definition (Raymaker et al., 2020), how it differs from depression, masking as primary cause, recovery strategies.
+- /masking-and-unmasking — Masking & Unmasking. What masking actually is, the long-term cost (Pearson & Rose, 2021), why unmasking is terrifying and necessary, how to start safely.
+- /sensory-processing — Sensory Processing as an Autistic Adult. The 8 senses explained, hyper/hypo sensitivity, sensory diet for adults, workplace survival, building a sensory-safe home.
+- /executive-function — Executive Function: The Operating System Nobody Taught You. Task initiation, autistic inertia, external scaffolding strategies, apps and tools that help.
+
+## Life as an Autistic Adult (Section)
+- /workplace — Workplace & Career as an Autistic Adult. Disclosure decisions, ADA accommodations, jobs that play to autistic strengths, surviving open offices, remote work.
+- /relationships-and-dating — Relationships & Dating While Autistic. Double empathy, communication style differences, sensory considerations in intimacy, dating apps, autistic-autistic relationships.
+- /friendships — Friendships as an Autistic Adult. Why maintenance is exhausting, quality over quantity, parallel play friendships, finding your people, online friendships.
+- /independent-living — Living Independently as an Autistic Adult. Practical skills, routines as lifelines, managing household tasks, when to ask for help, support services.
+- /financial-management — Money Management for Autistic Adults. Executive function and finances, autopay everything, impulse spending, financial routines, SSI/SSDI basics.
+- /college-and-education — College & Education as an Autistic Adult. Disability services, accommodation letters, lecture halls, study strategies for autistic cognition, returning to school.
+- /disclosure — Disclosure: When and How to Tell People You're Autistic. Decision framework, workplace/family/dating/friend disclosure scripts, when NOT to disclose.
+
 ## Affiliations
 Part of the Wu-Tang AI Clan network of sites: webearish.com, thevoiceofcash.com, jewsa.com, u-god.com, aiskillsagents.com, allahican.com, redwhitejesus.com, autismacceptance.world, searchperformancemarketing.com, shadyscanner.com

@@ -41,6 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.5,
     },
+    // Understanding Your Autism section
     {
       url: `${base}/late-diagnosis`,
       lastModified: new Date(),
@@ -48,11 +49,48 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${base}/masking`,
+      url: `${base}/autism-in-women`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
     },
+    {
+      url: `${base}/autism-in-men`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${base}/autism-and-adhd`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${base}/autistic-burnout`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${base}/masking-and-unmasking`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${base}/sensory-processing`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${base}/executive-function`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    // Life as an Autistic Adult section
     {
       url: `${base}/workplace`,
       lastModified: new Date(),
@@ -60,19 +98,37 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${base}/relationships`,
+      url: `${base}/relationships-and-dating`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: `${base}/sensory`,
+      url: `${base}/friendships`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: `${base}/burnout`,
+      url: `${base}/independent-living`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${base}/financial-management`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${base}/college-and-education`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${base}/disclosure`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
