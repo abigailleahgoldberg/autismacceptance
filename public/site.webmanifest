@@ -1,0 +1,10 @@
+{
+  "name": "Autism Acceptance World",
+  "short_name": "AAW",
+  "description": "Resources, stories, and community for autism acceptance and neurodiversity.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#6B21A8",
+  "theme_color": "#6B21A8",
+  "icons": [{ "src": "/favicon.ico", "sizes": "any", "type": "image/x-icon" }]
+}

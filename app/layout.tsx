@@ -309,6 +309,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={plexMono.variable}>
       <head>
+        <link rel="manifest" href="/site.webmanifest" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Autism Acceptance World -- The Adult Autism Resource</title>
         <meta
