@@ -426,11 +426,11 @@ export default function HomePage() {
             A <a href="https://webearish.com" target="_blank" rel="noopener noreferrer" style={{ color: "#A855F7", textDecoration: "underline" }}>WeBearish</a> affiliate — 100% of profits reinvested into autism acceptance programs
           </p>
           <div className="hero-cta-group">
-            <a href="/resources" className="cta-primary">
-              Explore Resources
+            <a href="/blog" className="cta-primary">
+              Read the Articles
             </a>
-            <a href="/community" className="cta-secondary">
-              Join the Community
+            <a href="/shop" className="cta-secondary">
+              Shop for Acceptance
             </a>
           </div>
         </div>

@@ -351,7 +351,7 @@ export default function RootLayout({
                 <DropdownMenu key={cat.label} category={cat} index={i} />
               ))}
               <li style={{ marginLeft: "0.5rem" }}>
-                <a href="/community" style={ctaButtonStyle}>Get Support</a>
+                <a href="/shop" style={ctaButtonStyle}>Shop</a>
               </li>
             </ul>
 
@@ -464,7 +464,7 @@ export default function RootLayout({
                 }}
                 onClick={() => setMenuOpen(false)}
               >
-                Get Support
+                Shop the Store
               </a>
             </div>
           </div>
