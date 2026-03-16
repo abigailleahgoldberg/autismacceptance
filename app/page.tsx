@@ -404,6 +404,16 @@ export default function HomePage() {
       {/* Hero */}
       <section style={heroStyle} aria-labelledby="hero-heading">
         <div style={containerStyle}>
+          <div style={{ marginBottom: "clamp(1.5rem, 4vw, 2.5rem)" }}>
+            <Image
+              src="/bears/bears-together.jpg"
+              alt="Bears together"
+              width={800}
+              height={300}
+              style={{ width: "100%", maxWidth: 600, height: "auto", borderRadius: 12, objectFit: "cover", margin: "0 auto", display: "block", opacity: 0.85 }}
+              priority
+            />
+          </div>
           <h1 style={h1Style} id="hero-heading">
             You are not broken.
           </h1>
@@ -411,6 +421,9 @@ export default function HomePage() {
             Autism Acceptance World is the largest adult autism resource on the internet.
             Built for autistic adults. Written with the community. No inspiration porn.
             No cure narratives. Just real information, real community, and real acceptance.
+          </p>
+          <p style={{ fontSize: "0.8rem", color: "rgba(168,85,247,0.7)", marginBottom: "1.5rem" }}>
+            A <a href="https://webearish.com" target="_blank" rel="noopener noreferrer" style={{ color: "#A855F7", textDecoration: "underline" }}>WeBearish</a> affiliate — 100% of profits reinvested into autism acceptance programs
           </p>
           <div className="hero-cta-group">
             <a href="/resources" className="cta-primary">

@@ -171,16 +171,18 @@ export default function RootLayout({
       <body>
         <nav style={navStyle} aria-label="Main navigation">
           <div style={navInnerStyle}>
-            <a href="/" style={{ ...logoStyle, display: "flex", alignItems: "center", gap: "10px" }} aria-label="Autism Acceptance World home">
-              <img src="/bears/bear-forest.jpg" alt="" style={{ width: 36, height: 36, borderRadius: "50%", objectFit: "cover" }} />
-              <span>
-                <span style={logoTextStyle}>Autism Acceptance</span>
-                <span style={logoWorldStyle}> World</span>
-              </span>
-            </a>
-            <a href="https://webearish.com" target="_blank" rel="noopener noreferrer" style={{ fontSize: "10px", color: "rgba(168,85,247,0.6)", textDecoration: "none", position: "absolute" as const, top: "48px", left: "58px", letterSpacing: "0.5px" }}>
-              A WeBearish Affiliate
-            </a>
+            <div style={{ display: "flex", flexDirection: "column" as const, gap: "2px" }}>
+              <a href="/" style={{ ...logoStyle, display: "flex", alignItems: "center", gap: "10px", textDecoration: "none", zIndex: 10 }} aria-label="Autism Acceptance World home">
+                <img src="/bears/bear-forest.jpg" alt="" style={{ width: 36, height: 36, borderRadius: "50%", objectFit: "cover" as const }} />
+                <span>
+                  <span style={logoTextStyle}>Autism Acceptance</span>
+                  <span style={logoWorldStyle}> World</span>
+                </span>
+              </a>
+              <a href="https://webearish.com" target="_blank" rel="noopener noreferrer" style={{ fontSize: "10px", color: "rgba(168,85,247,0.6)", textDecoration: "none", letterSpacing: "0.5px", paddingLeft: "46px" }}>
+                A WeBearish Affiliate
+              </a>
+            </div>
 
             {/* Desktop nav */}
             <ul
