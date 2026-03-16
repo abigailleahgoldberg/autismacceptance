@@ -226,30 +226,26 @@ export default function RootLayout({
               <HamburgerIcon open={menuOpen} />
             </button>
           </div>
+        </nav>
 
-          {/* Mobile nav drawer */}
-          <ul
+        {/* Mobile nav drawer - OUTSIDE nav to avoid sticky/fixed conflict on iOS */}
+        {menuOpen && (
+          <div
             id="mobile-nav"
-            className="nav-links"
             style={{
-              listStyle: "none",
-              margin: 0,
-              display: menuOpen ? "flex" : "none",
-              position: "fixed" as const,
-              top: "64px",
+              position: "fixed",
+              top: 64,
               left: 0,
               right: 0,
               bottom: 0,
-              backgroundColor: "rgba(9, 8, 15, 0.97)",
-              flexDirection: "column" as const,
-              alignItems: "flex-start",
+              backgroundColor: "rgba(9, 8, 15, 0.98)",
+              zIndex: 200,
+              overflowY: "auto",
               padding: "1.5rem",
-              gap: "0.5rem",
-              zIndex: 99,
-              overflowY: "auto" as const,
+              WebkitOverflowScrolling: "touch",
             }}
-            aria-hidden={!menuOpen}
           >
+            <ul style={{ listStyle: "none", margin: 0, padding: 0, display: "flex", flexDirection: "column", gap: "0.5rem" }}>
             <li style={{ width: "100%" }}>
               <a
                 href="/community"
@@ -304,8 +300,9 @@ export default function RootLayout({
                 Get Support
               </a>
             </li>
-          </ul>
-        </nav>
+            </ul>
+          </div>
+        )}
 
         <style>{`
           .nav-hamburger {
