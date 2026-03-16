@@ -415,7 +415,7 @@ export default function HomePage() {
             />
           </div>
           <h1 style={h1Style} id="hero-heading">
-            You are not broken.
+            Autism Acceptance Starts Here.
           </h1>
           <p style={heroSubStyle}>
             Autism Acceptance World is the largest adult autism resource on the internet.
