@@ -187,11 +187,11 @@ export default function RootLayout({
               }}
               className="nav-desktop"
             >
-              <li><a href="/community" style={navLinkStyle}>Community</a></li>
-              <li><a href="/resources" style={navLinkStyle}>Resources</a></li>
-              <li><a href="/blog" style={navLinkStyle}>Blog</a></li>
-              <li><a href="/shop" style={navLinkStyle}>Shop</a></li>
-              <li>
+              <li style={{ width: "100%" }}><a href="/community" style={navLinkStyle}>Community</a></li>
+              <li style={{ width: "100%" }}><a href="/resources" style={navLinkStyle}>Resources</a></li>
+              <li style={{ width: "100%" }}><a href="/blog" style={navLinkStyle}>Blog</a></li>
+              <li style={{ width: "100%" }}><a href="/shop" style={navLinkStyle}>Shop</a></li>
+              <li style={{ width: "100%" }}>
                 <a href="/community" style={ctaButtonStyle}>Get Support</a>
               </li>
             </ul>
@@ -242,7 +242,7 @@ export default function RootLayout({
             }}
             aria-hidden={!menuOpen}
           >
-            <li>
+            <li style={{ width: "100%" }}>
               <a
                 href="/community"
                 style={{ ...navLinkStyle, display: "block", padding: "0.875rem 0", borderBottom: "1px solid rgba(168,85,247,0.1)", fontSize: "1.0625rem" }}
@@ -251,7 +251,7 @@ export default function RootLayout({
                 Community
               </a>
             </li>
-            <li>
+            <li style={{ width: "100%" }}>
               <a
                 href="/resources"
                 style={{ ...navLinkStyle, display: "block", padding: "0.875rem 0", borderBottom: "1px solid rgba(168,85,247,0.1)", fontSize: "1.0625rem" }}
@@ -260,7 +260,7 @@ export default function RootLayout({
                 Resources
               </a>
             </li>
-            <li>
+            <li style={{ width: "100%" }}>
               <a
                 href="/blog"
                 style={{ ...navLinkStyle, display: "block", padding: "0.875rem 0", borderBottom: "1px solid rgba(168,85,247,0.1)", fontSize: "1.0625rem" }}
@@ -269,7 +269,7 @@ export default function RootLayout({
                 Blog
               </a>
             </li>
-            <li>
+            <li style={{ width: "100%" }}>
               <a
                 href="/shop"
                 style={{ ...navLinkStyle, display: "block", padding: "0.875rem 0", borderBottom: "1px solid rgba(168,85,247,0.1)", fontSize: "1.0625rem" }}
@@ -278,7 +278,7 @@ export default function RootLayout({
                 Shop
               </a>
             </li>
-            <li style={{ paddingTop: "0.75rem" }}>
+            <li style={{ width: "100%", paddingTop: "0.75rem" }}>
               <a
                 href="/community"
                 style={{
