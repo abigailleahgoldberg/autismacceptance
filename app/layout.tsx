@@ -342,6 +342,15 @@ export default function RootLayout({
         }) }} />
       </head>
       <body className={plexMono.className}>
+        {/* Affiliate top bar — autism-focused resources */}
+        <div style={{ background: "#0a0a12", borderBottom: "1px solid rgba(168,85,247,0.12)", padding: "6px 1.5rem", display: "flex", alignItems: "center", justifyContent: "center", gap: 24, flexWrap: "wrap" as const }}>
+          <span style={{ fontSize: 10, color: "rgba(168,85,247,0.5)", letterSpacing: "0.8px", textTransform: "uppercase" as const }}>Affiliate picks for the community:</span>
+          <a href="https://www.amazon.com/s?k=autism+acceptance+books&tag=autismacceptance-20" target="_blank" rel="noopener noreferrer sponsored" style={{ fontSize: 10, color: "rgba(168,85,247,0.7)", textDecoration: "none", letterSpacing: "0.3px" }}>📚 Books for Autistic Adults</a>
+          <a href="https://www.amazon.com/s?k=sensory+fidget+tools+autism&tag=autismacceptance-20" target="_blank" rel="noopener noreferrer sponsored" style={{ fontSize: 10, color: "rgba(168,85,247,0.7)", textDecoration: "none", letterSpacing: "0.3px" }}>🧸 Sensory Tools</a>
+          <a href="https://www.amazon.com/s?k=noise+canceling+headphones+autism&tag=autismacceptance-20" target="_blank" rel="noopener noreferrer sponsored" style={{ fontSize: 10, color: "rgba(168,85,247,0.7)", textDecoration: "none", letterSpacing: "0.3px" }}>🎧 Noise-Canceling Headphones</a>
+          <a href="https://www.amazon.com/s?k=weighted+blanket+anxiety&tag=autismacceptance-20" target="_blank" rel="noopener noreferrer sponsored" style={{ fontSize: 10, color: "rgba(168,85,247,0.7)", textDecoration: "none", letterSpacing: "0.3px" }}>🛋️ Weighted Blankets</a>
+          <span style={{ fontSize: 10, color: "rgba(168,85,247,0.3)", letterSpacing: "0.3px" }}>We earn a small commission. Prices are the same for you.</span>
+        </div>
         <nav style={navStyle} aria-label="Main navigation">
           <div style={navInnerStyle}>
             <div style={{ display: "flex", flexDirection: "column" as const, gap: "2px", flexShrink: 0, minWidth: 0 }}>
@@ -355,6 +364,11 @@ export default function RootLayout({
               <a href="https://webearish.com" target="_blank" rel="noopener noreferrer" className="affiliate-link" style={{ fontSize: "10px", color: "rgba(168,85,247,0.6)", textDecoration: "none", letterSpacing: "0.5px", paddingLeft: "46px" }}>
                 A WeBearish Affiliate
               </a>
+              <div className="affiliate-link" style={{ display: "flex", gap: 12, paddingLeft: "46px", marginTop: 2, flexWrap: "wrap" }}>
+                <a href="https://www.amazon.com/s?k=autism+acceptance+books&tag=autismacceptance-20" target="_blank" rel="noopener noreferrer sponsored" style={{ fontSize: "9px", color: "rgba(168,85,247,0.5)", textDecoration: "none", letterSpacing: "0.4px" }}>Books ↗</a>
+                <a href="https://www.amazon.com/s?k=sensory+tools+autism&tag=autismacceptance-20" target="_blank" rel="noopener noreferrer sponsored" style={{ fontSize: "9px", color: "rgba(168,85,247,0.5)", textDecoration: "none", letterSpacing: "0.4px" }}>Sensory Tools ↗</a>
+                <a href="https://www.amazon.com/s?k=autism+communication+aids&tag=autismacceptance-20" target="_blank" rel="noopener noreferrer sponsored" style={{ fontSize: "9px", color: "rgba(168,85,247,0.5)", textDecoration: "none", letterSpacing: "0.4px" }}>Communication Aids ↗</a>
+              </div>
             </div>
 
             {/* Desktop mega-nav */}
@@ -564,10 +578,10 @@ export default function RootLayout({
               <div>
                 <p style={footerHeadingStyle}>Our Network</p>
                 <a href="https://webearish.com" style={footerLinkStyle} target="_blank" rel="noopener noreferrer">WeBearish.com</a>
-                <a href="https://jewsa.com" style={footerLinkStyle} target="_blank" rel="noopener noreferrer">JewSA.com</a>
-                <a href="https://u-god.com" style={footerLinkStyle} target="_blank" rel="noopener noreferrer">U-God.com</a>
-                <a href="https://thevoiceofcash.com" style={footerLinkStyle} target="_blank" rel="noopener noreferrer">The Voice of Cash</a>
-                <a href="https://aiskillsagents.com" style={footerLinkStyle} target="_blank" rel="noopener noreferrer">AI Skills Agents</a>
+                <a href="https://autisticadvocacy.org" style={footerLinkStyle} target="_blank" rel="noopener noreferrer">ASAN →</a>
+                <a href="https://www.amazon.com/s?k=autism+acceptance+books&tag=autismacceptance-20" style={footerLinkStyle} target="_blank" rel="noopener noreferrer sponsored">Books (affiliate)</a>
+                <a href="https://www.amazon.com/s?k=sensory+tools+autism&tag=autismacceptance-20" style={footerLinkStyle} target="_blank" rel="noopener noreferrer sponsored">Sensory Tools (affiliate)</a>
+                <a href="https://www.amazon.com/s?k=autism+planners+organizers&tag=autismacceptance-20" style={footerLinkStyle} target="_blank" rel="noopener noreferrer sponsored">Planners (affiliate)</a>
               </div>
             </div>
 
