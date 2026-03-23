@@ -7,7 +7,64 @@ export interface BlogPost {
   content: string;
 }
 
-export const posts: BlogPost[] = [
+export const posts: BlogPost[
+  {
+    slug: "autism-acceptance-month-2026-what-it-means",
+    title: "Autism Acceptance Month 2026: What We Are Actually Asking For",
+    category: "Advocacy",
+    date: "2026-03-23",
+    description: "Acceptance Month is not about puzzle pieces or the color blue. Here is what the autistic community is actually asking for in 2026.",
+    content: `April is Autism Acceptance Month.
+
+Not Awareness Month. Not Light It Up Blue. Not puzzle pieces.
+
+The language shift matters. Awareness means knowing something exists. In 2026, awareness is not what the autistic community needs most. Most people know autism exists. What is needed is acceptance, which means something fundamentally different.
+
+Acceptance means that a child who learns differently is taught differently, not diagnosed and then placed back into an environment that was not designed for their brain. Acceptance means that an adult who communicates differently is accommodated in job interviews and workplaces rather than screened out for failing to perform neurotypicality. Acceptance means that sensory sensitivities are treated as real rather than as preferences or excuses. Acceptance means that autistic people are included in the decisions that are made about them.
+
+Nothing about us without us is not a slogan. It is the minimum requirement for any advocacy that claims to be for autistic people.
+
+The history of autism advocacy in the United States has not always centered autistic voices. The organizations that have been most visible have often been led by parents and professionals rather than by autistic people. That is changing. Autistic-led organizations have grown. Autistic researchers and advocates and writers are increasingly shaping the conversation. The change is real and it is continuing.
+
+What can you do this April that is actually useful?
+
+Listen to autistic people talking about their own experiences. Not just the experiences of children. Autistic adults exist and have a great deal to say about what they needed as children and what they need now.
+
+Ask before assuming. Not every autistic person wants or needs the same accommodations. Not every autistic person shares the same perspective on diagnosis, on identity, on what it means to be autistic. The spectrum is genuinely wide.
+
+Examine the organizations you support. Where does the money go? Who leads the organization? Are autistic people central to the governance and the decision-making?
+
+Acceptance is not a passive state. It is an active choice to create environments, systems, and relationships where autistic people can actually show up as themselves.
+
+That is what this month is for.`
+  },
+  {
+    slug: "sensory-processing-what-parents-need-to-know",
+    title: "Sensory Processing and Autism: What Every Parent Needs to Actually Know",
+    category: "Parenting",
+    date: "2026-03-23",
+    description: "Sensory processing differences are one of the most significant and misunderstood aspects of autism. Here is what they actually are and what helps.",
+    content: `Sensory processing differences are among the most common and most misunderstood aspects of autism. They affect how the brain receives and interprets information from the senses, and they can make ordinary environments genuinely overwhelming in ways that are hard for neurotypical people to imagine.
+
+Understanding sensory processing is not a peripheral issue for autism parents. It is often the key to understanding why specific situations are so difficult for your child and what you can actually do about it.
+
+The basics first. The brain receives input from eight sensory systems, not just the five that most people learned about in school. In addition to sight, sound, smell, taste, and touch, there are proprioception, the sense of your body\'s position in space, vestibular sense, the sense of balance and movement, and interoception, the sense of your internal body states. Autistic people commonly experience differences in how one or more of these systems process information.
+
+Sensory differences can go in either direction. Hypersensitivity means that input is processed more intensely than average. A sound that is mildly annoying to most people might be physically painful to a hypersensitive child. Fabric seams might feel like sandpaper. Bright lights might be blinding. Hyposensitivity means the opposite: input is processed less intensely, and the person may seek out strong sensory experiences to feel regulated.
+
+Many autistic people experience both, in different sensory channels or at different times.
+
+What this means practically for parents is that behaviors that look like defiance or meltdowns or avoidance are often sensory responses. A child who refuses to go to a school cafeteria may be responding to the genuine pain of the noise level. A child who insists on wearing the same clothes every day may be managing the sensory experience of clothing rather than being rigid or difficult. A child who bites or hits themselves may be seeking proprioceptive input to regulate their nervous system.
+
+This is not about lowering expectations. It is about understanding what is actually happening so you can address it accurately.
+
+Occupational therapy with a therapist trained in sensory integration is the most evidence-supported intervention for sensory processing differences. A good OT can help you identify your child\'s specific sensory profile and develop strategies that work for their particular combination of sensitivities and seeking behaviors.
+
+Environmental modifications are often the most immediate relief. Noise-canceling headphones. Seating away from the cafeteria\'s loudest areas. Clothing that has had the tags removed and the seams flattened. Sunglasses indoors when the lighting is difficult. These are not giving in. They are accommodations that allow your child to function in environments that were not designed for their nervous system.
+
+The goal is not to eliminate sensory sensitivity. The goal is to help your child navigate the world in a way that does not require them to spend all of their energy managing sensory overwhelm. Energy spent on sensory management is energy not available for learning, for connection, for everything else that childhood is supposed to be for.`
+  },
+] = [
   {
     slug: "late-diagnosis-adult-autism-guide",
     title: "Late Autism Diagnosis: What to Do When You Finally Find Out",
