@@ -7,7 +7,7 @@ export interface BlogPost {
   content: string;
 }
 
-export const posts: BlogPost[
+export const posts: BlogPost[] = [
   {
     slug: 'autistic-communication-styles-and-respect',
     title: 'Autistic Communication Styles: What Neurotypical People Get Wrong',
