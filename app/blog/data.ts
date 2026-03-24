@@ -50,7 +50,6 @@ Many autistic adults have been trained to suppress stimming so thoroughly that t
     category: 'Culture',
     readTime: 6
   },
-] = [
   {
     slug: "autism-acceptance-month-2026-what-it-means",
     title: "Autism Acceptance Month 2026: What We Are Actually Asking For",
