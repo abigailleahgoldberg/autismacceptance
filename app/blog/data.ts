@@ -27,7 +27,6 @@ Autistic people often take things literally. If you say "I am dying" as hyperbol
 Respect for autistic communication means accepting that autistic people communicate differently, not judging that difference as rude or deficient, and adapting to their communication needs as well as asking them to adapt to yours.`,
     date: '2026-03-24',
     category: 'Communication',
-    readTime: 6
   },
   {
     slug: 'stimming-in-public-why-autistic-people-self-regulate',
@@ -48,7 +47,6 @@ Respect for autistic people includes allowing them to stim without judgment. If 
 Many autistic adults have been trained to suppress stimming so thoroughly that they have difficulty identifying when they need to stim and giving themselves permission to do so. Letting autistic people stim is letting them regulate themselves in a way that works for them.`,
     date: '2026-03-24',
     category: 'Culture',
-    readTime: 6
   },
   {
     slug: "autism-acceptance-month-2026-what-it-means",
