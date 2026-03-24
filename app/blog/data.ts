@@ -9,6 +9,49 @@ export interface BlogPost {
 
 export const posts: BlogPost[
   {
+    slug: 'autistic-communication-styles-and-respect',
+    title: 'Autistic Communication Styles: What Neurotypical People Get Wrong',
+    excerpt: 'Understanding how autistic communication differs and what respect actually looks like.',
+    content: `Autistic communication is different from neurotypical communication. The differences are not better or worse — they are different. And much of the tension between autistic and neurotypical people comes from neurotypical people treating autistic communication as deficient or rude when it is actually just different.
+
+Autistic people often communicate more directly than neurotypical people. If you ask an autistic person a question, they will answer it directly. They will not soften the answer with social niceties or read between the lines of what you might be hoping to hear. If you ask "Do I look okay in this?" the neurotypical answer is often "Yes, you look great" regardless of actual appearance. The autistic answer is honest — "The color does not suit you" or "The fit is slightly off."
+
+Neurotypical people sometimes experience this honesty as rudeness. The autistic person is not being rude — they are being honest. The confusion comes from different communication norms.
+
+Autistic people also often struggle with the neurotypical expectation of eye contact. Eye contact is stressful and hard for many autistic people. Looking someone in the eye while processing language is cognitively demanding. Autistic people often communicate better when not making eye contact, but neurotypical people are trained to interpret lack of eye contact as disinterest or dishonesty. Again — different, not deficient.
+
+Autistic people often prefer written communication. It is slower, it allows processing time, you can reread something. Verbal communication is faster and more ephemeral. For people who process information more slowly or need time to organize thoughts, written communication is better. This is not antisocial — it is a valid preference.
+
+Autistic people often take things literally. If you say "I am dying" as hyperbole, an autistic person might take you seriously. If you say you will call on Thursday and you call on Wednesday, an autistic person might feel confused or betrayed because you said Thursday. This is not autism being difficult — it is autism taking your words at face value.
+
+Respect for autistic communication means accepting that autistic people communicate differently, not judging that difference as rude or deficient, and adapting to their communication needs as well as asking them to adapt to yours.`,
+    date: '2026-03-24',
+    category: 'Communication',
+    readTime: 6
+  },
+  {
+    slug: 'stimming-in-public-why-autistic-people-self-regulate',
+    title: 'Stimming in Public: Why Autistic People Move, Rock, and Make Repetitive Motions',
+    excerpt: 'Understanding and respecting autistic self-regulation and stimming behavior.',
+    content: `Stimming is self-stimulatory behavior — repetitive movements, sounds, or actions that autistic people use to regulate their sensory and emotional states. Flapping hands, rocking, making repetitive sounds, spinning, fidgeting, clicking — these are stims. They are not random tics or signs of distress. They are regulation tools.
+
+The neurotypical default is to try to suppress autistic stimming. Children are told to stop fidgeting, sit still, stop flapping, be quiet. In school and professional settings, stimming is often corrected or suppressed because it is seen as disruptive or unprofessional. The assumption is that stopping the behavior is a good thing.
+
+For autistic people, suppressing stimming requires cognitive resources that could be used elsewhere. Trying to sit still and not stim while also processing language and social information makes everything harder. Allowing someone to stim while they listen often improves their ability to focus. An autistic person who is rocking while you talk is not dismissing you — they are self-regulating so they can listen better.
+
+Stimming serves multiple functions. It can be calming when anxiety is high. It can be organizing when sensory input is confusing. It can be joyful expression when experiencing something positive. Different stims serve different functions.
+
+Autistic stimming is not the same as ADHD fidgeting, though the behaviors can overlap. An ADHD person fidgets partly because they cannot focus without movement. An autistic person stims partly because it regulates their sensory experience. Both are legitimate regulation tools.
+
+Respect for autistic people includes allowing them to stim without judgment. If an autistic coworker rocks while you talk, they are not being disrespectful. If an autistic person flaps their hands in a situation of joy or excitement, that is not malfunctioning — that is expression.
+
+Many autistic adults have been trained to suppress stimming so thoroughly that they have difficulty identifying when they need to stim and giving themselves permission to do so. Letting autistic people stim is letting them regulate themselves in a way that works for them.`,
+    date: '2026-03-24',
+    category: 'Culture',
+    readTime: 6
+  },
+] = [
+  {
     slug: "autism-acceptance-month-2026-what-it-means",
     title: "Autism Acceptance Month 2026: What We Are Actually Asking For",
     category: "Advocacy",
@@ -64,7 +107,6 @@ Environmental modifications are often the most immediate relief. Noise-canceling
 
 The goal is not to eliminate sensory sensitivity. The goal is to help your child navigate the world in a way that does not require them to spend all of their energy managing sensory overwhelm. Energy spent on sensory management is energy not available for learning, for connection, for everything else that childhood is supposed to be for.`
   },
-] = [
   {
     slug: "late-diagnosis-adult-autism-guide",
     title: "Late Autism Diagnosis: What to Do When You Finally Find Out",
